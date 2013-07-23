@@ -1,0 +1,24 @@
+{
+  "type": "geo",
+  "data": {
+    "name": "Area 51",
+    "tags": ["secure", "groom", "lake", "salt", "see", "military", "us", "air force", "nellis", "restricted", "secret"]
+    "lat": 48.691532,
+    "long": 12.80575,
+    "lat": [48.691532, 49.691532, 48.491532], // for areas use an array
+    "long": [12.80575, 12.20575, 13.80575], // for areas use an array
+    "adress": { // optional
+      "name": "Max Mustermann",
+      "street": "Musterstraße",
+      "number": "23",
+      "postalcode": "12345",
+      "country": "Germany"
+    }
+  },
+  "ttl": 3600, // time to live <https://en.wikipedia.org/wiki/Time_to_live> #g
+  "origin": "http://example.org/geo.pis.json", // on backup/fallback files to show the origin source
+  "secure": {
+    "ca": "http://example.org/pgp.asc", // Certificate authority
+    "signature": "" // GPG Signature
+  }
+}

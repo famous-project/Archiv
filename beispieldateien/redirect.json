@@ -1,0 +1,12 @@
+{
+  "type": "redirect",
+  "data": {
+    "location": "http://my.own.domain.tld/pis-control-center/data/the-real-pis-data.json"
+  },
+  "ttl": 3600, // time to live <https://en.wikipedia.org/wiki/Time_to_live> #g
+  "origin": "http://example.org/redirect.pis.json", // on backup/fallback files to show the origin source
+  "secure": {
+    "ca": "http://example.org/pgp.asc", // Certificate authority
+    "signature": "" // GPG Signature
+  }
+}

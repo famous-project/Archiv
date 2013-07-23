@@ -1,0 +1,42 @@
+{
+  "type": "produce",
+  "data": {
+    "name": "NSA Data Stream",
+    "tags": ["nsa", "prism", "audio"],
+    "partof": {
+      "url": "http://nsa.gov/datastream/produce.json" // PIS file of the podcast
+      "parts": 23 // all episodes
+      "part": 1 // count episodes
+    }
+    "type": "audio",
+    "start": 1374594630, // UNIX Timestamp, only for livestreams
+    "end": 1375563291, // UNIX Timestamp, only for livestreams
+    "publish": 1385000000, // UNIX Timestamp, only for downloadable content
+    "content": {
+      "download": {
+        "MP3": "http://nsa.gov/audio/archive001.mp3",
+        "OSF": "http://shownot.es/api/nsa/001/?type=osf",
+        "PDF": "http://shownot.es/api/nsa/001/?type=pdf",
+        "PTL": "http://shownot.es/api/nsa/001/?type=ptl"
+      },
+      "stream": {
+        "MP3": "http://streams.xenim.de/nsa.mp3",
+        "AAC": "http://streams.xenim.de/nsa.aac"
+      },
+      "shopping": {
+        "DVD": ["http://www.amazon.de/dp/B00005NFD0/", "http://www.weltbild.de/3/13798718-1/dvd/der-staatsfeind-nr-1.html"],
+        "BluRay": "http://www.amazon.de/dp/B000NDFESW/" // string if only one value is needed
+      },
+      "logo": "http://cdn.shownot.es/nsa.png",
+      "info": {
+        "review": "http://www.imdb.com/title/tt0120660/" // use an array for more sources
+      }
+    }
+  },
+  "ttl": 7200, // time to live <https://en.wikipedia.org/wiki/Time_to_live> #g
+  "origin": "http://example.org/geo.pis.json", // on backup/fallback files to show the origin source
+  "secure": {
+    "ca": "http://example.org/pgp.asc", // Certificate authority
+    "signature": "" // GPG Signature
+  }
+}

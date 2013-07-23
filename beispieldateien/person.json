@@ -1,0 +1,38 @@
+{
+  "type": "produce",
+  "data": {
+    "familyname": "Musterman",
+    "name": "Max",
+    "nick": "Maxi",
+    "title": "Doctor of Medicine",
+    "org": ["Musterfirma GmbH & Co KG", "Chaos Computer Club"], // list alle organisations in an array or only one in a string
+    "photo": "http://max.musterman.tld/me.png", 
+    "contact": {
+      "private": {
+        "tel": "0049 159 11231312009",
+        "email": "max.mustermann@gmail.tld",
+        "adress": { 
+          "name": "Max Mustermann",
+          "street": "Musterstraße",
+          "number": "23",
+          "postalcode": "12345",
+          "country": "Germany"
+        }
+      },
+      "Musterfirma GmbH & Co KG": { // use org values as keys
+        "tel": "0049 151 11231231921",
+        "email": "max.mustermann@musterfirma.tld"
+      }
+    }
+  },
+  "ttl": 7200, // time to live <https://en.wikipedia.org/wiki/Time_to_live> #g
+  "origin": "http://example.org/geo.pis.json", // on backup/fallback files to show the origin source
+  "secure": {
+    "hash": { // to check for changes
+      "md5": "228bbdc4113e1957e9ac5c166e121da3",
+      "crc32": "483411225"
+    }
+    "ca": "http://example.org/pgp.asc", // Certificate authority
+    "signature": "" // GPG Signature
+  }
+}
