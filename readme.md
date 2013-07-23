@@ -65,3 +65,21 @@ Das PIS liefert Daten bzw. bietet Daten an, mögliche Nutzer und Anbieter dieser
 ##PIS-Backbone-Network
 
 An einem Synchronisierungs und Backbone Infrastruktur Konzept arbeitet [Dr4k3](https://github.com/Drake81) und wird das nachtragen.
+
+* Dezentraler Informationsverteiler Dienst als Eigener Application Server
+  * Erweitert Mischprinzip und macht es flexibler
+  * Aggregiert Informationen über andere Server - Peering Netzwerk
+    * Verbindung der Systeme bspw. über XMPP/Jabber - Subscription/Push möglich
+    * Aufbau von eigenen Messagetypen möglich - Dadurch flexibel
+  * Datenformat der JSON als Grundlage
+  * Vorteile:
+    * Getrennte mehrfach vorhandene Systeme möglich - Podcaster können ihrn bevorzugten Service nutzen
+      * Dennoch Datenaustausch zwischen verschiedenen Services möglich, wenn diese am Peering-Netz teilnehmen
+    * Daten müssen nicht über Crawler gesucht werden, sondern könnten über das PeerNetzwerk jedem angeboten werden
+    * Crawler dennoch möglich. Als eigene Systeme die wieder Daten in das Peernetzwerk weitergeben
+    * Vollständig eigene Schicht und somit unabhängig von den anderen PIS-Layern (Kein wesentlicher Umbau der alten Strukturen)
+      * Nur weitere Schnittstelle
+  * Nachteile:
+    * Aufwendige Implementation des Peer-Netzwerkes
+    * Vertrauens Frage bei Peer-Teilnehmern (sowohl als Informationsanbieter als auch Nutzer)
+
