@@ -24,14 +24,14 @@ Das Dateiformat muss möglichst von vielen Programmiersprachen verwendet werden 
 
 Da über die PIS Dateien verschiedenste Daten übertragen werden können/sollten ist eine Kategorisierung in Entitäten sinnvoll. Ähnlich wie in anderen Datensammlungen werden folgende Entitäten vorgeschlagen, diese Liste sollte jedoch erweiterbar sein, falls notwendig:
 
-* [**redirect**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/redirect.md) Weiterleitung (Weiterleitung auf andere PIS Dateien (zu verwenden auf Systemen die keine Weiterleitung (HTTP 301/2) unterstützen))
-* [**overview**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/overview.md) Übersicht (um alle unter dieser Domain verfügbaren PIS Dateien aufzulisten)
+* [**redirect**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/redirect.json) Weiterleitung (Weiterleitung auf andere PIS Dateien (zu verwenden auf Systemen die keine Weiterleitung (HTTP 301/2) unterstützen))
+* [**overview**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/overview.json) Übersicht (um alle unter dieser Domain verfügbaren PIS Dateien aufzulisten)
 * Namen (als Übersicht ähnlich der Wikipedia Begriffsklärungsseiten (Diese Seite ist eine Begriffsklärung zur Unterscheidung mehrerer mit demselben Wort bezeichneter Begriffe.))
-* [**person**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/person.md) Personen (ausschlieslich natürliche Personen und keine juristische Personen)
+* [**person**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/person.json) Personen (ausschlieslich natürliche Personen und keine juristische Personen)
 * Körperschaften, Firmen, Vereinigungen, Communitys
 * Events (im Podcast Bezug hauptsächlich Hörertreffen und Workshops)
-* [**produce**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/produce.md) Werke (Veröffentlichungen jeglicher Art, sowohl live als auch Aufzeichnungen)
-* [**geo**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/geo.md) Geografika (Um Ortsdaten bei Dauerhaften Ereignissen zu übermitteln, bei zeitlich begrenzten Ereignissen bitte Events verwenden)
+* [**produce**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/produce.json) Werke (Veröffentlichungen jeglicher Art, sowohl live als auch Aufzeichnungen)
+* [**geo**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/geo.json) Geografika (Um Ortsdaten bei Dauerhaften Ereignissen zu übermitteln, bei zeitlich begrenzten Ereignissen bitte Events verwenden)
 * **recepie** um Arbeitsabläufe zu beschreiben
 * ...
 
