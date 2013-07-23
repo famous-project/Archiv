@@ -2,11 +2,14 @@
 
 \* **Podcast Information System** (PIS) ist nur ein Codename und wird sich noch ändern
 
+**think big**
+**and different**
+
 ##Konzept
 
-Das PIS ist ein System und Format zum Austausch von Metadaten. Anfangs ist PIS für Multimedia Inhalte (wie Podcasts) gedacht, eine Erweiterung auf Blogs und andere Textinhalte soll nicht ausgeschlossen sein.
+Das PIS ist ein System und Format zum Austausch von Metadaten. Anfangs ist PIS für Multimedia Inhalte (wie Podcasts) gedacht, eine Erweiterung auf Blogs und andere Textinhalte ist nicht ausgeschlossen.
 
-##Dateiformat
+###Dateiformat
 
 Das Dateiformat muss möglichst von vielen Programmiersprachen verwendet werden können, deshalb habe ich mich dort für JSON entschieden. Ausserdem müssen folgende Eigenschaften vom Dateiformat ermöglicht werden:
 
@@ -17,10 +20,10 @@ Das Dateiformat muss möglichst von vielen Programmiersprachen verwendet werden 
 * erweiterbarkeit auf andere Entitäten
 * anreicherbarkeit mit Zusatzinformationen
 * auch in XML darstellbar
-* trotz moderner Formate kompatibel zu RDF, VCF, GND, FoaF, ... bleiben (also durch Converter)
+* trotz moderner Formate kompatibel zu [RDF](http://de.wikipedia.org/wiki/RDF-Schema), [VCF](http://de.wikipedia.org/wiki/VCard), [GND](http://de.wikipedia.org/wiki/Gemeinsame_Normdatei), [FoaF](http://de.wikipedia.org/wiki/FOAF), ... bleiben (also durch Converter)
 * ...
 
-##Entitätentypen
+###Entitätentypen
 
 Da über die PIS Dateien verschiedenste Daten übertragen werden können/sollten ist eine Kategorisierung in Entitäten sinnvoll. Ähnlich wie in anderen Datensammlungen werden folgende Entitäten vorgeschlagen, diese Liste sollte jedoch erweiterbar sein, falls notwendig:
 
@@ -37,17 +40,28 @@ Da über die PIS Dateien verschiedenste Daten übertragen werden können/sollten
 
 Die [Beispieldateien](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/) sind nur ein vorläufiger Entwurf. Die Dateien wurden als JSON gespeichert, enthalten jedoch mit // gekennzeichnete Kommentare, diese sind für gewöhnlich nicht in JSON erlaubt und dienen nur der Dokumentation.
 
-##Verbreitung
+###Verbreitung
 
 Um die Daten an andere Systeme zu übergeben ist ein Pushdienst geplant, jeder Hoster von PIS-Daten kann selbst Pushen oder aber auch einen Pushdienst verwenden.
 Beim Push von PIS-Daten wird nur die URL des Objekts übergeben, das nutzende System muss die Daten dann selbst abrufen. Durch diese Art des Push wird es vereinfacht, die ursprüngliche Herrkunft der Daten zu verifizieren.
 Zusätzlich zum Push ist auch eine Eintragung in Feeds, als DNS Eintrag und mittels einer PIS Datei im Root Verzeichnis der Webseite (wie auch bei robots.txt, humans.txt, sitemap.xml, favicon.ico, apple-touch-icon-precomposed.png, ...) möglich.
 Neben der Verbreitung als JSON Datei ist auch ein Transfer der Daten im PIS-Backbone geplant, welche aber noch von [Dr4k3](https://github.com/Drake81) niedergeschrieben werden muss.
 
-##API
+###API
 
 Der Zugriff auf die Daten auf Frontend Ebene erfolgt ausschlieslich über HTTP GET requests. Um neue Daten ans Backend zu schicken wird ein HTTP POST verwendet. Im Backbone wird XMPP zur Übertragung von Daten verwendet.
 
-##PIS-Network
+##Nutzer/Participanten
+
+Das PIS liefert Daten bzw. bietet Daten an, mögliche Nutzer und Anbieter dieser Daten wären:
+
+* Podlove Publisher (Anbieter)
+* Firtz (Anbieter)
+* hoersuppe.de (Nutzer + Anbieter)
+* Shownot.es (Nutzer + Anbieter)
+* Xenim Streaming (Nutzer + Anbieter)
+* Event-Datenbank/Suchmaschine X (Nutzer)
+
+##PIS-Backbone-Network
 
 An einem Synchronisierungs und Backbone Infrastruktur Konzept arbeitet [Dr4k3](https://github.com/Drake81) und wird das nachtragen.
