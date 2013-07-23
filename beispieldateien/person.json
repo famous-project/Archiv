@@ -29,9 +29,9 @@
   "origin": "http://example.org/geo.pis.json", // on backup/fallback files to show the origin source
   "secure": {
     "hash": { // to check for changes
-      "md5": "228bbdc4113e1957e9ac5c166e121da3",
-      "crc32": "483411225"
-    }
+      "md5": "344aab9758bb0d018b93739e7893fb3a",
+      "crc32": "215568175"
+    },
     "ca": "http://example.org/pgp.asc", // Certificate authority
     "signature": "" // GPG Signature
   }
