@@ -51,6 +51,28 @@ Neben der Verbreitung als JSON Datei ist auch ein Transfer der Daten im PIS-Back
 
 Der Zugriff auf die Daten auf Frontend Ebene erfolgt ausschlieslich über HTTP GET requests. Um neue Daten ans Backend zu schicken wird ein HTTP POST verwendet. Im Backbone wird XMPP zur Übertragung von Daten verwendet.
 
+###Kryptographie, Signierung und Hashing
+
+Die Daten sollten verschlüsselt, signiert und gehasht werden können.
+Verschlüsselung ist wichtig für folgende Anwendungsfälle:
+
+* Austausch von nicht öffentlichen Daten (Firmenintern)
+
+Signierung ist wichtig für folgende Anwendungsfälle:
+
+* Um Accounts und Adressen als valide und geprüft kennzeichnen zu können
+
+Hashing ist wichtig für folgende Anwendungsfälle:
+
+* Um auch bei nicht öffentlichen Adressen diese zum durchsuchen zu verwenden
+
+Ich schlage folgende Hashingalgos vor:
+
+* CRC32
+* MD5
+* Whirlpool
+* SHA512
+
 ##Nutzer/Participanten
 
 Das PIS liefert Daten bzw. bietet Daten an, mögliche Nutzer und Anbieter dieser Daten wären:
