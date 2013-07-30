@@ -1,0 +1,222 @@
+//work in progress!
+//idea for all podcast basics and standard informations
+{
+  "type": "basic",
+  "data": {
+  
+    //standard dates
+    "title": "Podcastname",
+    "subtitle": "Weghören bringt nix",
+    "description": "Ein Podcast über...",
+    "baseurl": "http://podcastname.tld",
+    "org": ["Musterfirma GmbH & Co KG", "Chaos Computer Club"],           // list alle organisations in an array or only one in a string
+    "cover": "http://max.musterman.tld/me.png", 
+    
+    //person workflow and specifications (rss feed)
+    "author": "Max Mustermann",
+    "creator": "Hans Wurst",
+    "owners": ["Max Mustermann","Hubert Mustermann"],                     //itunes standard? 
+    
+    "explicit": "yes/no/-",
+    "pubdate": "Day, 01 Apr 2013",                                        //day of start the podcast
+    "updatePeriod": "hourly",                                             //publishing
+    "language": "de-DE",
+    "liz": "License name",
+    "lizurl": "http://..",
+    
+    
+    //podcast keywords
+    "keywords": "word1, word2, word3"                                    //for wordpress line
+   	"keywordarray": ["word1", "word2", "word3"],
+   
+    "location": "Berlin",               						                      //location of standrad podcast
+                                                                          //geo.json?
+    
+    "publisher": ["podlove", "v1.8.4"],
+    
+    //idea for payments (string or array ???)
+    "payments": [
+    	{
+    	"flattr": "http://..",
+    	},{
+    	"paypal": "http://..",
+    	}
+    ],
+     ...
+
+	//all podcast feeds
+	"allfeeds": [
+		//file specifications in podlove: https://github.com/podlove/podlove-publisher/blob/master/plugin.php#L18
+		{
+		"type": "audio/",
+		"name": "MP3 Audio",
+		"mime_type": "audio/mpeg", 
+		"extension": "mp3",
+		"url": "http://podcast.tld/feed/full-mp3/",
+		}, {
+		"type": "audio/",
+		"name": "MP3 Audio",
+		"mime_type": "audio/mpeg", 
+		"extension": "mp3",
+		"url": "http://podcast.tld/feed/small-mp3/",
+		}, {
+		"type": "audio/",
+		"name": "Opus Audio",
+		"mime_type": "audio/opus", 
+		"extension": "opus",
+		"url": "http://podcast.tld/feed/opus/",
+		},
+		
+		....
+	],
+
+    //contacts  
+    "contact": {
+      	"private": {      
+        	//idea for more or standard contacts
+        	"tel": "0049 159 11231312009",
+        	"email": "max.mustermann@gmail.tld",
+        	"skype": "skype://podcastname",             
+        	....
+        
+        	"Musterfirma GmbH & Co KG": {                                      // use org values as keys
+        	"tel": "0049 151 11231231921",
+        	"email": "max.mustermann@musterfirma.tld"
+      	},
+      
+      	"adress": { 
+          	"name": "Max Mustermann",
+          	"street": "Musterstraße",
+         	"number": "23",
+          	"postalcode": "12345",
+          	"country": "Germany"
+      	},
+      
+      	//direct url to social networks? 
+      	"social": {
+        	"app": "https://alpha.app.net/podcastname", //@App.Net
+        	"twitter": "https://...",                   //@twitter
+        	"gplus": "https://...",                     //Google+
+        	"facebook": "https://...",                  //Facebook
+        	...
+        
+        	//print & point networks 
+        	"pinterest": "https://...",                 //Facebook    
+       		 ...
+        	
+        	//screencast / youtube
+        	"youtube": "https://...",                   //YouTube   
+        	...
+      }
+  },
+  
+  //verzeichnisse & projects for podcastings
+  "directorys": {
+        //standards directories
+        "itunes": "http://",                            //iTunes
+        "podcast.de": "...",                            //podcast.de
+        "pitlove": "...",                               //bitlove (p2p)
+        ...
+        
+        //project directories
+        "hoersuppe.de": "...",                      //hoersuppe.de
+        "firtz": "...",                             //firtz.org
+        "shownote": "...",                          //shownot.es
+        "podpott": "...",                           //podpott.de
+        "podunion": "...",                          //PodUnion.com
+        "podbe": "...",                             //Podbe.de
+        "gpodder.net":"...",                        //Gpodder.net
+        "podigee": "...",                           //Podigee
+        ...
+        
+        //streming directories
+        "xenim": "...",                             //xenim 
+        "reliveradio": "...",                       //reliveradio
+        ...
+        
+        //search & quests ???
+        "poodle": "...",                            //Poodle.fm
+        ...
+  },
+  
+  
+  
+  //alle episode tags 
+  "alltags": ["macs", "apple", "technologie", "podcast", "technik"], 
+  
+  //episodes
+  "allepisodes": {
+      "name": "Podcastname"
+      "url": "http://podcastname.tld/produce.json"                            // PIS file of the podcast
+      "parts": 114                                                            // all episodes
+      "part": 100                                                             // count episodes
+
+      //all personal outs  
+      "contributer": {
+        "name": "Podcastname",
+        "url": "http://podcastname.tld/person.json",                          // PIS file of the podcast persons
+        "bodys": 20                                                           // all persons linked in the Podcasts
+  
+        //podcasters idea
+        "caster": [
+          {
+            "name": "Hubert Mustermann",    //Podcaster 1
+            ....
+          },
+          {
+            "name": "Herbert Mustermann",    //Podcaster 2
+            ....
+          },
+        ],
+      
+        //guests
+        "caster": [
+           {
+              "name": "Max Mustermann",    //Guest 1
+              ....
+           },
+          {
+             "name": "Mark Mustermann",    //Guest 2
+             ....
+          }
+        ]
+      }
+  }
+  
+  //standard podcast categorys
+  "categories": [{
+        "id": 1,
+        "slug": "society",
+        "title": "Gesellschaft",
+        "description": ""
+    }, {
+        "id": 2,
+        "slug": "literature",
+        "title": "Literatur",
+        "description": ""
+  }],
+  
+  //standard archiv & categorie archiv
+  "archiv": [{
+        "id": 1,
+        "slug": "society",
+        "title": "Gesellschaft",
+        "description": ""
+    }, {
+        "id": 2,
+        "slug": "literature",
+        "title": "Literatur",
+        "description": ""
+  }],
+
+  "ttl": 7200, // time to live <https://en.wikipedia.org/wiki/Time_to_live> #g
+  "origin": "http://example.org/geo.pis.json", // on backup/fallback files to show the origin source
+  "secure": {
+    "hash": { // to check for changes
+      "md5": "344aab9758bb0d018b93739e7893fb3a",
+      "crc32": "215568175"
+    },
+    "ca": "http://example.org/pgp.asc", // Certificate authority
+    "signature": "" // GPG Signature
+  },
+}
