@@ -208,7 +208,7 @@
   }],
 
   "ttl": 7200, // time to live <https://en.wikipedia.org/wiki/Time_to_live> #g
-  "origin": "http://example.org/geo.pis.json", // on backup/fallback files to show the origin source
+  "origin": "http://example.org/base.pis.json", // on backup/fallback files to show the origin source
   "secure": {
     "hash": { // to check for changes
       "md5": "344aab9758bb0d018b93739e7893fb3a",
