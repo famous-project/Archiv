@@ -27,11 +27,9 @@
     
     //podcast keywords
     "keywords": "word1, word2, word3",                                    //for wordpress line
-   "keywordarray": ["word1", "word2", "word3"],
-   
-    "location": "Berlin",               						                      //location of standrad podcast
+    "keywordarray": ["word1", "word2", "word3"],			  //or read for other systems
+    "location": "Berlin",               				  //location of standrad podcast
                                                                           //geo.json?
-    
     "publisher": ["podlove", "v1.8.4"],
     
     //idea for payments (string or array ???)
@@ -110,7 +108,7 @@
       }
   },
   
-  //verzeichnisse & projects for podcastings
+  //directorys & projects for podcastings
   "directorys": {
         //standards directories
         "itunes": "http://",                            //iTunes
@@ -118,7 +116,7 @@
         "pitlove": "...",                               //bitlove (p2p)
         ...
         
-        //project directories
+        //scene projects and directories
         "hoersuppe.de": "...",                      //hoersuppe.de
         "firtz": "...",                             //firtz.org
         "shownote": "...",                          //shownot.es
@@ -129,7 +127,7 @@
         "podigee": "...",                           //Podigee
         ...
         
-        //streming directories
+        //streaming directories
         "xenim": "...",                             //xenim 
         "reliveradio": "...",                       //reliveradio
         ...
@@ -141,7 +139,7 @@
   
   
   
-  //alle episode tags 
+  //all episode tags 
   "alltags": ["macs", "apple", "technologie", "podcast", "technik"], 
   
   //episodes
