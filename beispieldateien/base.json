@@ -28,6 +28,7 @@
     //podcast keywords
     "keywords": "word1, word2, word3",                                    //for wordpress line
     "keywordarray": ["word1", "word2", "word3"],			  //or read for other systems
+    
     "location": "Berlin",               				  //location of standrad podcast
                                                                           //geo.json?
     "publisher": ["podlove", "v1.8.4"],
@@ -36,8 +37,7 @@
     "payments": [
     	{
     	"flattr": "http://..",
-    	},{
-    	"paypal": "http://..",
+    	"paypal": "http://.."
     	}
     ],
      ...
@@ -68,7 +68,7 @@
 		....
 	],
 
-    //contacts  
+    //basic podcast contact  
     "contact": {
       	"private": {      
         	//idea for more or standard contacts
@@ -140,7 +140,7 @@
   
   
   //all episode tags 
-  "alltags": ["macs", "apple", "technologie", "podcast", "technik"], 
+  "tags": ["macs", "apple", "technologie", "podcast", "technik"], 
   
   //episodes
   "allepisodes": {
