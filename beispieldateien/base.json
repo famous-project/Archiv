@@ -26,8 +26,8 @@
     
     
     //podcast keywords
-    "keywords": "word1, word2, word3"                                    //for wordpress line
-   	"keywordarray": ["word1", "word2", "word3"],
+    "keywords": "word1, word2, word3",                                    //for wordpress line
+   "keywordarray": ["word1", "word2", "word3"],
    
     "location": "Berlin",               						                      //location of standrad podcast
                                                                           //geo.json?
