@@ -1,16 +1,15 @@
 Betreff: Einladung zur 1. PIS Conf 2013
 
+
 Sehr geehrte Damen und Herren,
 
 hiermit lade ich Sie herzlich zur PIS Skype/Mumble Konferenz ein. Einleitend möchte ich kurz erklären was mit PIS genau gemeint ist.
-Viele der Podcasts behandelnden und verarbeitenden Projekte sind auf Metadaten
-angewiesen. Ob das jetzt die Hörsuppe ist, welche die Streamingtermine aus den Onlinekalendern (ICS) ausliest oder ob es ein Podcatcher wie z.B. Instacast ist, welcher seine gesamten Informationen aus den Feeds und den Mediadateien selbst lädt.
-Viele der Informationen sind vorhanden, allerdings auf verschiedene Formate
-und Protokolle verteilt. Andere wiederum können derzeit leider noch gar nicht vernünftig semantisch dargestellt werden.
 
-Als Beispiel möchte ich dazu auf Poodle eingehen, welches zwar eine
-Volltextsuche über Shownotes ermöglicht und auch mit zusätzlichen Daten wie
-Podcastname oder Veröffentlichungsdatum verbindet, aber kein semantisches Verständnis der Shownotes hat. Wir als Shownot.es Team würden die Shownotes gerne mit mehr Metadaten und semantischen Informationen anreichern genau so wie auch andere Quellen zusätzliche Daten bereitstellen könnten.
+Viele der Podcasts behandelnden und verarbeitenden Projekte sind auf Metadaten angewiesen.
+Ob das jetzt die Hörsuppe ist, welche die Streamingtermine aus den Onlinekalendern (ICS) ausliest oder ob es ein Podcatcher wie z.B. Instacast ist, welcher seine gesamten Informationen aus den Feeds und den Mediadateien selbst lädt.
+Viele der Informationen sind vorhanden, allerdings auf verschiedene Formate und Protokolle verteilt. Andere wiederum können derzeit leider noch gar nicht vernünftig semantisch dargestellt werden.
+
+Als Beispiel möchte ich dazu auf Poodle eingehen, welches zwar eine Volltextsuche über Shownotes ermöglicht und auch mit zusätzlichen Daten wie Podcastname oder Veröffentlichungsdatum verbindet, aber kein semantisches Verständnis der Shownotes hat. Wir als Shownot.es Team würden die Shownotes gerne mit mehr Metadaten und semantischen Informationen anreichern genau so wie auch andere Quellen zusätzliche Daten bereitstellen könnten.
 Im Podlove Publisher gibt es derzeit eine sehr rudimentäre Möglichkeit zu einer Episode sogenannte Contributoren hinzuzufügen. Diese sind dann meistens die Podcaster.
 In OSF Shownotes haben wir bereits Standards für die Notierung von Shownotern, Podcastern, erwähnten Personen und auch für die Verschriftlichung, wer eine bestimmte Aussage gemacht hat gibt es Ideen.
 Zusätzlich könnte man diese Informationen auch über die Mehrspur-Aufnahmen und die Sprechererkennung durch Auphonic generieren und bestehende Daten anreichern.
@@ -25,4 +24,4 @@ Ich habe jetzt sehr stark aus der Sicht der Shownoter geschrieben, natürlich ha
 
 Sobald sich alle Interessenten im Doodle eingetragen haben werde ich einen passenden Termin auswählen und (falls mir die Kontaktdaten der eingetragenen Personen bekannt sind) alle davon in Kenntnis setzen. Vorneweg möchte ich darauf hinweisen, dass es sich beim PIS um ein größeres Projekt handelt welches sicher nicht nach einer 1-stündigen Telefonkonferenz komplett durchgesprochen ist. Wie lange die Conf dauert und ob/wann wir eine weitere abhalten würde ich am liebsten einfach während der Conf besprechen.
 
-Zum Abschluss noch ein paar Worte zu diesem TLA (three-letter acronym) PIS. Eines vorweg, das P steht nicht für Podlove. Die Ursprüngliche Idee eines Metadaten Systems stammt ebenso wie der Name und somit die Abkürzung von Christian aka eazy. Da es sich bei diesem Vorschlag um ein System zum Austausch und Vorhaltung von Podcast Informationen handelte war der Name Podcast Information System (kurz PIS) sehr stimmig. Ich selbst würde PIS eher als Codename sehen und falls jemand noch gute andere Vorschläge hat können wir gerne auch darüber sprechen. Mögliche Vorschläge wären JSON Objects Data Allocation oder Peer Operation Redemption Network (bitte auch über die zugehörigen Akronyme nachdenken ;-) )
+Zum Abschluss noch ein paar Worte zu diesem TLA (three-letter acronym) PIS. Eines vorweg, das P steht nicht für Podlove. Die Ursprüngliche Idee eines Metadaten Systems stammt ebenso wie der Name und somit die Abkürzung von Christian aka eazy. Da es sich bei diesem Vorschlag um ein System zum Austausch und Vorhaltung von Podcast Informationen handelte war der Name Podcast Information System (kurz PIS) sehr stimmig. Ich selbst würde PIS eher als Codename sehen und falls jemand noch gute andere Vorschläge hat können wir gerne auch darüber sprechen.
