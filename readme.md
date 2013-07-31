@@ -10,8 +10,9 @@
 \* **Podcast Information System** (PIS) ist nur ein Codename und wird sich noch ändern
 
 Da es evtl. später Sinn macht, dieses System auch für Blogs zu verwenden und andere Systeme mit Metadaten anzureichern würde ich von dem Wort Podcast im Projektnamen Abstand nehmen, obwohl es anfangs sicherlich nur Podcasts betrifft.  
-
-
+Auch die Einzelteile sollten benannt werden um bei Gesprächen auf bestimmte Bereiche zu referenzieren. Beim Podlove Projekt gibt es immer wieder das Problem, dass Nutzer Bug-Reports im falschen Repo posten bzw. den Unterschied zwischen PPP und PWP nicht kennen.
+Wenn wir dies verhindern könnten würde das bei künftigen Diskussionen vieles einfacher machen.  
+Ein möglicher Name für den JSON Datenaustausch, also sozusagen das Frontend wäre JSON Objects Data Allocation und das Backbone Netzwerk könnte man Peer Operation Redemption Network nennen. Ich würde bei solchen Akronymen immer eine einfache Aussprechbarkeit bevorzugen.
 
 ##Konzept
 
