@@ -11,11 +11,14 @@ Viele der Informationen sind vorhanden, allerdings auf verschiedene Formate und 
 
 Als Beispiel möchte ich dazu auf Poodle eingehen, welches zwar eine Volltextsuche über Shownotes ermöglicht und auch mit zusätzlichen Daten wie Podcastname oder Veröffentlichungsdatum verbindet, aber kein semantisches Verständnis der Shownotes hat. Wir als Shownot.es Team würden die Shownotes gerne mit mehr Metadaten und semantischen Informationen anreichern genau so wie auch andere Quellen zusätzliche Daten bereitstellen könnten.
 Im Podlove Publisher gibt es derzeit eine sehr rudimentäre Möglichkeit zu einer Episode sogenannte Contributoren hinzuzufügen. Diese sind dann meistens die Podcaster.
+
 In OSF Shownotes haben wir bereits Standards für die Notierung von Shownotern, Podcastern, erwähnten Personen und auch für die Verschriftlichung, wer eine bestimmte Aussage gemacht hat gibt es Ideen.
 Zusätzlich könnte man diese Informationen auch über die Mehrspur-Aufnahmen und die Sprechererkennung durch Auphonic generieren und bestehende Daten anreichern.
 Die eindeutige Erkennung/Identifizierung von Personen über verschiedene Podcasts hinweg würde für Poodle weitere Informationen liefern, mittels derer die Podcasts durchsucht werden könnten.
 Neben eindeutiger Personenidentifizierung wären aber auch Events (Hörertreffen, re:publica, Chaos Communication Congress, …), Produkte, Firmen, Orte, … wichtige Informationen, die semantisch und somit eindeutig identifizierbar zusätzliche Informationen liefern könnten.
+
 Was live gestreamte Podcasts angeht, wäre eine Zusammenführung von Stream und veröffentlichten Episoden nützlich. Wenn man zu einem Stream die genauen Start- und Endzeitpunkt weiß könnte man neben den Shownotes vollkommen automatisiert auch Informationen aus anderen Quellen aggregieren, wie z.B. IRC oder Twitter/App.net Posts.
+
 Auch bezüglich der Benennung von Folgen wäre so ein System sinnvoll. Wie oft schon wurden falsche Informationen zum Stream bereitgestellt? Auch die Padnamen der Shownot.es sind nicht immer korrekt und würden von so einer Datenabgleichung profitieren.
 Christian (eazy) beschwert sich schon lange über invalide, fehlerhafte oder einfach nur mit nicht genug Metadaten zur Verfügung gestellte RSS/Atom-Feeds. Dieses Problem dürfte dank Podlove und Firtz in letzter Zeit stark zurückgegangen sein, allerdings besteht das Problem weiterhin für Kalender, Shownotes und andere Zusatzinformationen die neben den Audiodateien selbst zusätzliche Daten liefern.
 
