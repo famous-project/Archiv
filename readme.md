@@ -1,9 +1,17 @@
 #Podcast Information System \*
 
+
+
+**think big**  
+**and different**
+
+##Name
+
 \* **Podcast Information System** (PIS) ist nur ein Codename und wird sich noch ändern
 
-**think big**
-**and different**
+Da es evtl. später Sinn macht, dieses System auch für Blogs zu verwenden und andere Systeme mit Metadaten anzureichern würde ich von dem Wort Podcast im Projektnamen Abstand nehmen, obwohl es anfangs sicherlich nur Podcasts betrifft.  
+
+
 
 ##Konzept
 
@@ -13,12 +21,12 @@ Das PIS ist ein System und Format zum Austausch von Metadaten. Anfangs ist PIS f
 
 Das Dateiformat muss möglichst von vielen Programmiersprachen verwendet werden können, deshalb habe ich mich dort für JSON entschieden. Ausserdem müssen folgende Eigenschaften vom Dateiformat ermöglicht werden:
 
-* verlinken/weiterleiten auf andere Orte (bei verwendung von 3rd Party Diensten)
-* cryptografische public key signierung (+ evtl. verschlüsselung)
+* verlinken/weiterleiten auf andere Orte (bei Verwendung von 3rd Party Diensten)
+* cryptografische public key Signierung (+ evtl. Verschlüsselung)
 * dezentrale + redundante Speicherung der Daten (Verifizierung durch Signatur)
 * Haltbarkeitsangabe (ttl)
-* erweiterbarkeit auf andere Entitäten
-* anreicherbarkeit mit Zusatzinformationen
+* Erweiterbarkeit auf andere Entitäten
+* Anreicherbarkeit mit Zusatzinformationen
 * auch in XML darstellbar
 * trotz moderner Formate kompatibel zu [RDF](http://de.wikipedia.org/wiki/RDF-Schema), [VCF](http://de.wikipedia.org/wiki/VCard), [GND](http://de.wikipedia.org/wiki/Gemeinsame_Normdatei), [FoaF](http://de.wikipedia.org/wiki/FOAF), ... bleiben (also durch Converter)
 * ...
@@ -30,7 +38,7 @@ Da über die PIS Dateien verschiedenste Daten übertragen werden können/sollten
 * [**redirect**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/redirect.json) Weiterleitung (Weiterleitung auf andere PIS Dateien (zu verwenden auf Systemen die keine Weiterleitung (HTTP 301/2) unterstützen))
 * [**overview**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/overview.json) Übersicht (um alle unter dieser Domain verfügbaren PIS Dateien aufzulisten)
 * Namen (als Übersicht ähnlich der Wikipedia Begriffsklärungsseiten (Diese Seite ist eine Begriffsklärung zur Unterscheidung mehrerer mit demselben Wort bezeichneter Begriffe.))
-* [**person**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/person.json) Personen (ausschlieslich natürliche Personen und keine juristische Personen)
+* [**person**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/person.json) Personen (ausschließlich natürliche Personen und keine juristische Personen)
 * Körperschaften, Firmen, Vereinigungen, Communitys
 * Events (im Podcast Bezug hauptsächlich Hörertreffen und Workshops)
 * [**produce**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/produce.json) Werke (Veröffentlichungen jeglicher Art, sowohl live als auch Aufzeichnungen)
@@ -44,13 +52,13 @@ Die [Beispieldateien](https://github.com/SimonWaldherr/PIS-draft/blob/master/bei
 ###Verbreitung
 
 Um die Daten an andere Systeme zu übergeben ist ein Pushdienst geplant, jeder Hoster von PIS-Daten kann selbst Pushen oder aber auch einen Pushdienst verwenden.
-Beim Push von PIS-Daten wird nur die URL des Objekts übergeben, das nutzende System muss die Daten dann selbst abrufen. Durch diese Art des Push wird es vereinfacht, die ursprüngliche Herrkunft der Daten zu verifizieren.
+Beim Push von PIS-Daten wird nur die URL des Objekts übergeben, das nutzende System muss die Daten dann selbst abrufen. Durch diese Art des Push wird es vereinfacht, die ursprüngliche Herkunft der Daten zu verifizieren.
 Zusätzlich zum Push ist auch eine Eintragung in Feeds, als DNS Eintrag und mittels einer PIS Datei im Root Verzeichnis der Webseite (wie auch bei robots.txt, humans.txt, sitemap.xml, favicon.ico, apple-touch-icon-precomposed.png, ...) möglich.
 Neben der Verbreitung als JSON Datei ist auch ein Transfer der Daten im PIS-Backbone geplant, welche aber noch von [Dr4k3](https://github.com/Drake81) niedergeschrieben werden muss.
 
 ###API
 
-Der Zugriff auf die Daten auf Frontend Ebene erfolgt ausschlieslich über HTTP GET requests. Um neue Daten ans Backend zu schicken wird ein HTTP POST verwendet. Im Backbone wird XMPP zur Übertragung von Daten verwendet.
+Der Zugriff auf die Daten auf Frontend Ebene erfolgt ausschließlich über HTTP GET Requests. Um neue Daten ans Backend zu schicken wird ein HTTP POST verwendet. Im Backbone wird XMPP zur Übertragung von Daten verwendet.
 
 ###Kryptographie, Signierung und Hashing
 
@@ -89,7 +97,7 @@ Das PIS liefert Daten bzw. bietet Daten an, mögliche Nutzer und Anbieter dieser
 
 ##PIS-Backbone-Network
 
-An einem Synchronisierungs und Backbone Infrastruktur Konzept arbeitet [Dr4k3](https://github.com/Drake81) und wird das nachtragen.
+An einem Synchronisierungs- und Backbone-Infrastruktur Konzept arbeitet [Dr4k3](https://github.com/Drake81) und wird das nachtragen.
 
 * Dezentraler Informationsverteiler Dienst als Eigener Application Server
   * Erweitert Mischprinzip und macht es flexibler
@@ -98,10 +106,10 @@ An einem Synchronisierungs und Backbone Infrastruktur Konzept arbeitet [Dr4k3](h
     * Aufbau von eigenen Messagetypen möglich - Dadurch flexibel
   * Datenformat der JSON als Grundlage
   * Vorteile:
-    * Getrennte mehrfach vorhandene Systeme möglich - Podcaster können ihrn bevorzugten Service nutzen
+    * Getrennte mehrfach vorhandene Systeme möglich - Podcaster können ihren bevorzugten Service nutzen
       * Dennoch Datenaustausch zwischen verschiedenen Services möglich, wenn diese am Peering-Netz teilnehmen
-    * Daten müssen nicht über Crawler gesucht werden, sondern könnten über das PeerNetzwerk jedem angeboten werden
-    * Crawler dennoch möglich. Als eigene Systeme die wieder Daten in das Peernetzwerk weitergeben
+    * Daten müssen nicht über Crawler gesucht werden, sondern könnten über das Peer-Netzwerk jedem angeboten werden
+    * Crawler dennoch möglich. Als eigene Systeme die wieder Daten in das Peer-Netzwerk weitergeben
     * Vollständig eigene Schicht und somit unabhängig von den anderen PIS-Layern (Kein wesentlicher Umbau der alten Strukturen)
       * Nur weitere Schnittstelle
   * Nachteile:
