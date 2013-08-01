@@ -98,24 +98,32 @@ Das PIS liefert Daten bzw. bietet Daten an, mögliche Nutzer und Anbieter dieser
 
 ##PIS-Backbone-Network
 
-An einem Synchronisierungs- und Backbone-Infrastruktur Konzept arbeitet [Dr4k3](https://github.com/Drake81) und wird das nachtragen.
+Ein seperates Backbone-Netz würde eine Möglichkeit bieten, Informationen zwischen verschiedenen Services dezentral auszutauschen.
+Es würde den Datenabgleich der einzelnen Services untereinander von der Presentation-Schicht klar trennen.
+So muss nicht jeder Services eine eigene RESTful-API zur Verfügung stellen, sondern kann wie alle anderen auch eine fest definierte API zum Backbone-Service nutzen.
+Sicher ließe sich diese auch als lokaler RESTService ausführen. So könnte man wie gewohnt auf bestimmte Komponenten(zum Beispiel Inhaltssuche) des Backbones via Request zugreifen.
+Eine weitere Möglichkeit wäre, dem Application-Server direkt Zugriff auf eine Datenbank zu geben, welche das Backbone dann zum ablegen und abrufen von Informationen nutzt.
+
+### Ein kurzer Abriss der Idee in Stichpunkten:
 
 * Dezentraler Informationsverteiler Dienst als eigener Application Server
-* Erweitert das Mischprinzip und macht es flexibler
+* Erweitert das von cato vorgeschlagene Mischprinzip und macht es flexibler
 * Aggregiert Informationen über andere Server - Peering Netzwerk
     * Verbindung der Systeme bspw. über XMPP/Jabber - Subscription/Push möglich
     * Aufbau von eigenen Messagetypen möglich - Dadurch flexibel
-* Datenformat der JSON als Grundlage
+    * (Jabber nutzt einen XML-Daten-Stream)
+    * Datenformat der JSON als Grundlage nutzbar
 
 ### Vorteile:
 * Getrennte mehrfach vorhandene Systeme möglich - Podcaster können ihren bevorzugten Service nutzen
-    * Dennoch Datenaustausch zwischen verschiedenen Services möglich, wenn diese am Peering-Netz teilnehmen
+    * Dennoch Datenaustausch zwischen verschiedenen allen Services möglich, wenn diese am Peering-Netz teilnehmen
 * Daten müssen nicht über Crawler gesucht werden, sondern könnten über das Peer-Netzwerk jedem angeboten werden
 * Crawler dennoch möglich. Als eigene Systeme die wieder Daten in das Peer-Netzwerk weitergeben
+* Aufwendige Requests auf viele verschiedene APIs würden entfallen, da das Backbone-Netz diese direkt zur Verfügung stellt.
 * Vollständig eigene Schicht und somit unabhängig von den anderen PIS-Layern (Kein wesentlicher Umbau der alten Strukturen)
-* Nur weitere Schnittstelle
 
 ### Nachteile:
 * Aufwendige Implementation des Peer-Netzwerkes
+* Komplexere Konfiguration des Services.
 * Vertrauens Frage bei Peer-Teilnehmern (sowohl als Informationsanbieter als auch Nutzer)
 
