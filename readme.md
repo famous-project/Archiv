@@ -51,7 +51,7 @@ Die [Beispieldateien](beispieldateien/) sind nur ein vorläufiger Entwurf. Die D
 
 ###Verbreitung
 
-Um die Daten an andere Systeme zu übergeben ist ein Pushdienst geplant, jeder Hoster von PIS-Daten kann selbst Pushen oder aber auch einen Pushdienst verwenden.
+Um die Daten an andere Systeme zu übergeben ist ein Push-Dienst geplant, jeder Hoster von PIS-Daten kann selbst Pushen oder aber auch einen Push-Dienst verwenden.
 Beim Push von PIS-Daten wird nur die URL des Objekts übergeben, das nutzende System muss die Daten dann selbst abrufen. Durch diese Art des Push wird es vereinfacht, die ursprüngliche Herkunft der Daten zu verifizieren.
 Zusätzlich zum Push ist auch eine Eintragung in Feeds, als DNS Eintrag und mittels einer PIS Datei im Root Verzeichnis der Webseite (wie auch bei robots.txt, humans.txt, sitemap.xml, favicon.ico, apple-touch-icon-precomposed.png, ...) möglich.
 Neben der Verbreitung als JSON Datei ist auch ein Transfer der Daten im PIS-Backbone geplant.
@@ -99,10 +99,10 @@ Das PIS liefert Daten bzw. bietet Daten an, mögliche Nutzer und Anbieter dieser
 
 ##PIS-Backbone-Network
 
-Ein seperates Backbone-Netz würde eine Möglichkeit bieten, Informationen zwischen verschiedenen Services dezentral auszutauschen.
-Es würde den Datenabgleich der einzelnen Services untereinander von der Presentation-Schicht klar trennen.
+Ein separates Backbone-Netz würde eine Möglichkeit bieten, Informationen zwischen verschiedenen Services dezentral auszutauschen.
+Es würde den Datenabgleich der einzelnen Services untereinander von der Präsentations-Schicht klar trennen.
 So muss nicht jeder Services eine eigene RESTful-API zur Verfügung stellen, sondern kann wie alle anderen auch eine fest definierte API zum Backbone-Service nutzen.
-Sicher ließe sich diese auch als lokaler RESTService ausführen. So könnte man wie gewohnt auf bestimmte Komponenten(zum Beispiel Inhaltssuche) des Backbones via Request zugreifen.
+Sicher ließe sich diese auch als lokaler REST-Service ausführen. So könnte man wie gewohnt auf bestimmte Komponenten(zum Beispiel Inhaltssuche) des Backbones via Request zugreifen.
 Eine weitere Möglichkeit wäre, dem Application-Server direkt Zugriff auf eine Datenbank zu geben, welche das Backbone dann zum ablegen und abrufen von Informationen nutzt.
 
 Eine grobe Skizze der Idee findet ihr [hier](diagramm.png "Darstellung PIS") im unteren Bereich der Abbildung. Eine kurze Erklärung wird ggf. in der Konferenz folgen.
@@ -114,7 +114,7 @@ Eine grobe Skizze der Idee findet ihr [hier](diagramm.png "Darstellung PIS") im 
 * Erweitert das von cato vorgeschlagene Mischprinzip und macht es flexibler
 * Aggregiert Informationen über andere Server - Peering Netzwerk
     * Verbindung der Systeme bspw. über XMPP/Jabber - Subscription/Push möglich
-    * Aufbau von eigenen Messagetypen möglich - Dadurch flexibel
+    * Aufbau von eigenen Message-Typen möglich - Dadurch flexibel
     * (Jabber nutzt einen XML-Daten-Stream)
     * Datenformat der JSON als Grundlage nutzbar
 
@@ -127,7 +127,7 @@ Eine grobe Skizze der Idee findet ihr [hier](diagramm.png "Darstellung PIS") im 
 * Vollständig eigene Schicht und somit unabhängig von den anderen PIS-Layern (Kein wesentlicher Umbau der alten Strukturen)
 
 ### Nachteile:
-* Aufwendige Implementation des Peer-Netzwerkes
+* Aufwendige Implementierung des Peer-Netzwerkes
 * Komplexere Konfiguration des Services.
 * Vertrauens Frage bei Peer-Teilnehmern (sowohl als Informationsanbieter als auch Nutzer)
 
