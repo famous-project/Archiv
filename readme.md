@@ -55,7 +55,7 @@ Die [Beispieldateien](https://github.com/SimonWaldherr/PIS-draft/blob/master/bei
 Um die Daten an andere Systeme zu übergeben ist ein Pushdienst geplant, jeder Hoster von PIS-Daten kann selbst Pushen oder aber auch einen Pushdienst verwenden.
 Beim Push von PIS-Daten wird nur die URL des Objekts übergeben, das nutzende System muss die Daten dann selbst abrufen. Durch diese Art des Push wird es vereinfacht, die ursprüngliche Herkunft der Daten zu verifizieren.
 Zusätzlich zum Push ist auch eine Eintragung in Feeds, als DNS Eintrag und mittels einer PIS Datei im Root Verzeichnis der Webseite (wie auch bei robots.txt, humans.txt, sitemap.xml, favicon.ico, apple-touch-icon-precomposed.png, ...) möglich.
-Neben der Verbreitung als JSON Datei ist auch ein Transfer der Daten im PIS-Backbone geplant, welche aber noch von [Dr4k3](https://github.com/Drake81) niedergeschrieben werden muss.
+Neben der Verbreitung als JSON Datei ist auch ein Transfer der Daten im PIS-Backbone geplant.
 
 ###API
 
@@ -103,6 +103,9 @@ Es würde den Datenabgleich der einzelnen Services untereinander von der Present
 So muss nicht jeder Services eine eigene RESTful-API zur Verfügung stellen, sondern kann wie alle anderen auch eine fest definierte API zum Backbone-Service nutzen.
 Sicher ließe sich diese auch als lokaler RESTService ausführen. So könnte man wie gewohnt auf bestimmte Komponenten(zum Beispiel Inhaltssuche) des Backbones via Request zugreifen.
 Eine weitere Möglichkeit wäre, dem Application-Server direkt Zugriff auf eine Datenbank zu geben, welche das Backbone dann zum ablegen und abrufen von Informationen nutzt.
+
+Eine grobe Skizze der Idee findet ihr [hier](diagramm.png "Darstellung PIS") im unteren Bereich der Abbildung. Eine kurze wird ggf in der Konferenz folgen.
+
 
 ### Ein kurzer Abriss der Idee in Stichpunkten:
 
