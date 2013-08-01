@@ -48,7 +48,7 @@ Da über die PIS Dateien verschiedenste Daten übertragen werden können/sollten
 * [**base**](https://github.com/McCouman/PIS-draft/blob/master/beispieldateien/base.json) Idee für die Standarddaten des Podcasts (Grundeinstellung)
 * ...
 
-Die [Beispieldateien](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/) sind nur ein vorläufiger Entwurf. Die Dateien wurden als JSON gespeichert, enthalten jedoch mit // gekennzeichnete Kommentare, diese sind für gewöhnlich nicht in JSON erlaubt und dienen nur der Dokumentation.
+Die [Beispieldateien](beispieldateien/) sind nur ein vorläufiger Entwurf. Die Dateien wurden als JSON gespeichert, enthalten jedoch mit // gekennzeichnete Kommentare, diese sind für gewöhnlich nicht in JSON erlaubt und dienen nur der Dokumentation.
 
 ###Verbreitung
 
@@ -104,7 +104,7 @@ So muss nicht jeder Services eine eigene RESTful-API zur Verfügung stellen, son
 Sicher ließe sich diese auch als lokaler RESTService ausführen. So könnte man wie gewohnt auf bestimmte Komponenten(zum Beispiel Inhaltssuche) des Backbones via Request zugreifen.
 Eine weitere Möglichkeit wäre, dem Application-Server direkt Zugriff auf eine Datenbank zu geben, welche das Backbone dann zum ablegen und abrufen von Informationen nutzt.
 
-Eine grobe Skizze der Idee findet ihr [hier](diagramm.png "Darstellung PIS") im unteren Bereich der Abbildung. Eine kurze wird ggf in der Konferenz folgen.
+Eine grobe Skizze der Idee findet ihr [hier](diagramm.png "Darstellung PIS") im unteren Bereich der Abbildung. Eine kurze Erklärung wird ggf in der Konferenz folgen.
 
 
 ### Ein kurzer Abriss der Idee in Stichpunkten:
