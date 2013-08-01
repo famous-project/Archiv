@@ -1,7 +1,6 @@
 #Podcast Information System \*
 
 
-
 **think big**  
 **and different**
 
@@ -68,20 +67,21 @@ Verschlüsselung ist wichtig für folgende Anwendungsfälle:
 
 * Austausch von nicht öffentlichen Daten (Firmenintern)
 
-Signierung ist wichtig für folgende Anwendungsfälle:
+Signierung:
 
 * Um Accounts und Adressen als valide und geprüft kennzeichnen zu können
+* ich würde eine PKCS7 entsprechende Signierungsmethode bevorzugen
 
-Hashing ist wichtig für folgende Anwendungsfälle:
+Hashing:
 
 * Um auch bei nicht öffentlichen Adressen diese zum durchsuchen zu verwenden
+* Ich schlage folgende Hashingalgos vor:
+    * CRC32
+    * MD5
+    * Whirlpool
+    * SHA512
 
-Ich schlage folgende Hashingalgos vor:
-
-* CRC32
-* MD5
-* Whirlpool
-* SHA512
+ich würde gerne über diese Algos und die Implementierung in verschiedenen Sprachen in der Conf sprechen. Welche Algos sind sicher, schnell und in allen wichtigen Sprachen vorhanden bzw. leicht implementierbar? Für JavaScript würde ich [CRC32, MD5 und Whirlpool Hashingalgos](https://github.com/SimonWaldherr/cryptofoo) zur Verfügung stellen. In PHP können wir ebenfalls alle aufgelisteten Algos verwenden (wird von PHP mitgeliefert). Bei Python sind MD5 und CRC32 ebenfalls direkt verfügbar.
 
 ##Nutzer/Participanten
 
@@ -95,6 +95,7 @@ Das PIS liefert Daten bzw. bietet Daten an, mögliche Nutzer und Anbieter dieser
 * Event-Datenbank/Suchmaschine X (Nutzer)
 * Podunion (Nutzer)
 * Podbe (Nutzer + Anbieter)
+* ReliveRadio (Nutzer)
 
 ##PIS-Backbone-Network
 
@@ -104,7 +105,7 @@ So muss nicht jeder Services eine eigene RESTful-API zur Verfügung stellen, son
 Sicher ließe sich diese auch als lokaler RESTService ausführen. So könnte man wie gewohnt auf bestimmte Komponenten(zum Beispiel Inhaltssuche) des Backbones via Request zugreifen.
 Eine weitere Möglichkeit wäre, dem Application-Server direkt Zugriff auf eine Datenbank zu geben, welche das Backbone dann zum ablegen und abrufen von Informationen nutzt.
 
-Eine grobe Skizze der Idee findet ihr [hier](diagramm.png "Darstellung PIS") im unteren Bereich der Abbildung. Eine kurze Erklärung wird ggf in der Konferenz folgen.
+Eine grobe Skizze der Idee findet ihr [hier](diagramm.png "Darstellung PIS") im unteren Bereich der Abbildung. Eine kurze Erklärung wird ggf. in der Konferenz folgen.
 
 
 ### Ein kurzer Abriss der Idee in Stichpunkten:
