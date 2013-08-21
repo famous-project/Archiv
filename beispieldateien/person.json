@@ -31,6 +31,13 @@
       "081675075aea0c026bc66a85f8f33daf891c201b5c35745d84d846b79caa8a113f35599d03316b7a8cc97a6fb96ea54a98dc1877fd5b20e2e281ca4c88937f90",
       "593adc2fd32535e97947f4151ada86d15b91c6dea5c86596a4a441d30bf761761bd974285050d3075e6ed116efc7d0a05908f027240c622afd295b7ba404bc80",
       "4d759056e46414db7215bc53e7" // (whirlpool) hash of profile URL (e.g. http://twitter.com/simonwaldherr), or a link to the communication foo (e.g. mailto:mail@example.org or tel:004915111234567890)
+    ],
+    "contacts": [
+      "http://example.org/persons/johndoe.json", // url to PIS person JSON file
+      "http://example.org/persons/johnappleseed.json"
+    ],
+    "portfolio": [
+      "http://example.org/produce/mobilemacs.json" // url to PIS produce JSON file
     ]
   },
   "ttl": 7200, // time to live <https://en.wikipedia.org/wiki/Time_to_live> #g
