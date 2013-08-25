@@ -1,6 +1,8 @@
+PIS="HIER BITTE NAME EINFÜGEN"
+
 #$PIS
 
-Das PIS ist ein System und Format zum Austausch von Metadaten. Anfangs ist PIS für Multimedia Inhalte (wie Podcasts) gedacht, eine Erweiterung auf Blogs und andere Textinhalte ist nicht ausgeschlossen.
+Das $PIS ist ein System und Format zum Austausch von Metadaten. Anfangs ist $PIS für Multimedia Inhalte (wie Podcasts) gedacht, eine Erweiterung auf Blogs und andere Textinhalte ist nicht ausgeschlossen.
 
 ##Am Anfang war das Wort
 
@@ -21,6 +23,7 @@ So, es wurde jetzt erklärt, dass diese Metadaten nicht viel Aufwand bedeuten, a
 
 Wie bereits erwähnt ist es unser Ziel, die "Arbeit" von Podcastern zu vereinfachen. Durch die Abbildung von Semantik und Metadaten im Podcastingsystem können viele Dinge automatisierter ablaufen, sei es der Workflow von der Aufnahme, über die Vershownotung, bis hin zur Veröffentlichung oder auch die Erkennung, zusammenhängender Informationen.
 ...
+Durch PIS verbessert sich die Aktualität und der Umfang der leicht verfügbaren Informartion. Dadurch wird der Schritt vom Lean-Forward zum Lean-Back-Medium kleiner. Das wird dazu führen, dass potenzielle Hörer eher den richtigen Podcast für sie zum Hören finden.
 
 ###Hörern
 
@@ -45,5 +48,4 @@ Da es kein einfaches Unterfangen ist und wir möglichst bald erste in Software g
 Jeder der unser Vorhaben unterstützen und Teil des Projekts werden will ist herzlich dazu eingeladen. Jegliche Hilfe ist jederzeit willkommen, egal ob Programmierer oder Admins, ob Designer oder Podcaster die über uns berichten und unsere Software testen wollen.
 
 
-// beim schreiben dieses Textes ist mir aufgefallen, dass wir uns über die Ansprache der Leute gedanken machen sollten, bzw. dass ich ungern entscheiden würde, ob wir mit du, Sie oder ihr die Leute ansprechen oder ob wir das generische Femininum oder Maskulinum verwenden sollten.
-
+// beim schreiben dieses Textes ist mir aufgefallen, dass wir uns über die Ansprache der Leute Gedanken machen sollten, bzw. dass ich ungern entscheiden würde, ob wir mit du, Sie oder ihr die Leute ansprechen oder ob wir das generische Femininum oder Maskulinum verwenden sollten.
