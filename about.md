@@ -26,12 +26,6 @@ Unser Ziel ist es, durch möglichst vielseitige Automatisierung, den Aufwand bei
 Die semantische Auswertung und Verknüpfung von Multimediainhalten, also in diesem Fall von Podcasts, bringt für alle Seiten wesentlich Vorteile in der Nutzung.
 Welche das für die einzelnen Gruppen sind soll unten weiter ausgeführt werden.
 
-```
-//im Grunde sind die Vorteile bei allen dreien die gleichen, man findet eher was man sucht, somit mehr Hörer, ... und wenn der Podcaster weniger Arbeit damit hat steigt auch die Qualität was wiederum den Hörern nutzt.
-mehr hörer=mehr Spenden, aber wenn man das direkt schreibt mit den "mehr Spenden", dann springen die meisten ab, denke ich
-ja, das stimmt schon, ich wollte es nur erwähnen, dass es eigentlich dreimal das gleiche ist und wir deshalb etwas aufpassen sollten, dass wir das trotzdem noch etwas auf die angesprochenen fokusieren. Redundanz ist bei Präsentation ganz ok. Ist ja keine Dokumentation Ja. Bitte den Text für die später kommenden noch etwas stehen lassen, im fertigen Text kommt das dann natürlich raus.
-```
-
 ###Für Podcaster
 
 Wie bereits erwähnt, ist eines der Ziele, die "Arbeit" von Podcastern zu vereinfachen.
@@ -72,8 +66,3 @@ Weitere Details zu unserem Vorhaben und wie wir gedenken, es umzusetzen folgen i
 Da es kein einfaches Unterfangen ist und wir möglichst bald erste in Software gegossene Problemlösungen veröffentlichen wollen sind wir über jegliche Hilfe dankbar.
 Jeder der unser Vorhaben unterstützen und Teil des Projekts werden will ist herzlich dazu eingeladen.
 Jegliche Hilfe ist jederzeit willkommen, egal ob Programmierer oder Admins, ob Designer oder Podcaster und deren Hörer, die über uns berichten und unsere Software testen wollen.
-
-```
-// beim schreiben dieses Textes ist mir aufgefallen, dass wir uns über die Ansprache der Leute Gedanken machen sollten, bzw. dass ich ungern entscheiden würde, ob wir mit du, Sie oder ihr die Leute ansprechen oder ob wir das generische Femininum oder Maskulinum verwenden sollten.
-```
-
