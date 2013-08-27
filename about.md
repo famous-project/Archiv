@@ -11,7 +11,7 @@ Bereits in den 90ern wurde Versucht, dem Web mehr [Semantik](http://de.wikipedia
 Das heißt die Bedeutung der Texte und ihre Beziehungen untereinander sollten automatisch ausgewertet werden.
 ["Resource Description Framework"](http://de.wikipedia.org/wiki/Resource_Description_Framework) und ["Semantic Web"](http://de.wikipedia.org/wiki/Semantic_Web) sind da die Stichworte.
 Viele waren sehr überzeugt von der Idee eines durchsuchbaren Netzes, aber anscheinend war die Zeit noch nicht reif.
-Seit einiger Zeit wächst die Idee der Semantik auch wieder im Bereich der Blogs und Podcasts, jedoch stammen die Möglichkeiten/Technologien, der semantischen Methoden immer noch aus den 90ern.
+Seit einiger Zeit wächst die Idee der Semantik auch wieder im Bereich der Blogs und Podcasts, jedoch stammen die Möglichkeiten/Technologien, diese Semantik anzubieten noch immer aus den 90ern.
 Deshalb haben wir (Personen aus den verschiedensten Projekten und Gruppen, allerdings alle mit Bezug auf Podcasts) uns dazu entschlossen, dieses nun schon so lange ungelöstes Problem erneut in den Fokus zu rücken und sowohl mit Vorschlägen und Standards, als auch mit richtigen Code der diese Ideen dann auch umsetzt, dem Problem Herr zu werden.
 
 ##Because we can?
@@ -51,7 +51,6 @@ Durch $PIS verbessert sich die Aktualität und der Umfang der leicht verfügbare
 Drittanbieter können so fundierte Informationen über jeden Podcast liefern und sogar Beziehungen zwischen verschiedenen Podcasts herstellen.
 Des weiteren, kann durch Drittdienste eine schnelle und effiziente Verteilung der einzelnen Episoden und deren Inhalt über verschiedenste Wege vereinfacht werden.
 Dies wird dazu führen, dass potenzielle Hörer eher den richtigen Podcast für sich zum Hören finden.
-
 
 ##Unser Plan
 
