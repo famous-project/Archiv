@@ -14,16 +14,22 @@ Deshalb haben wir (Personen aus den verschiedensten Projekten und Gruppen, aller
 ##Because we can?
 
 Einige werden sich nun fragen, "wieso das ganze?". Ist das Metadatenproblem nicht nur ein Akademisches, welches gar keine wirklichen Auswirkungen auf unseren Alltag hat? Nein! Mehr Semantik und Metadaten machen vieles einfacher und bedeuten (wenn es vernünftige Software dafür gibt) nur einen geringen bis gar keinen Mehraufwand.
-Unser Ziel ist es jedoch, durch möglichst vielseitige Automatisierung den Aufwand beim Erstellen von Multimediainhalten sogar noch zu senken.
-So, es wurde jetzt erklärt, dass diese Metadaten nicht viel Aufwand bedeuten, aber was nützt es uns
+Unser Ziel ist es, durch möglichst vielseitige Automatisierung, den Aufwand beim Erstellen von Multimediainhalten sogar noch zu senken.
+So, es wurde jetzt erklärt, dass diese Metadaten nicht viel Aufwand bedeuten, aber was nützt es uns?
 
-##Cui bono?
+##Cui bono oder welche Vorteile bringt es?
+
+```
+//im Grunde sind die Vorteile bei allen dreien die gleichen, man findet eher was man sucht, somit mehr Hörer, ... und wenn der Podcaster weniger Arbeit damit hat steigt auch die Qualität was wiederum den Hörern nutzt.
+mehr hörer=mehr Spenden, aber wenn man das direkt schreibt mit den "mehr Spenden", dann springen die meisten ab, denke ich
+ja, das stimmt schon, ich wollte es nur erwähnen, dass es eigentlich dreimal das gleiche ist und wir deshalb etwas aufpassen sollten, dass wir das trotzdem noch etwas auf die angesprochenen fokusieren. Redundanz ist bei Präsentation ganz ok. Ist ja keine Dokumentation Ja. Bitte den Text für die später kommenden noch etwas stehen lassen, im fertigen Text kommt das dann natürlich raus.
+```
 
 ###Podcastern
 
 Wie bereits erwähnt ist es unser Ziel, die "Arbeit" von Podcastern zu vereinfachen. Durch die Abbildung von Semantik und Metadaten im Podcastingsystem können viele Dinge automatisierter ablaufen, sei es der Workflow von der Aufnahme, über die Vershownotung, bis hin zur Veröffentlichung oder auch die Erkennung, zusammenhängender Informationen.
 ...
-Durch PIS verbessert sich die Aktualität und der Umfang der leicht verfügbaren Informartion. Dadurch wird der Schritt vom Lean-Forward zum Lean-Back-Medium kleiner. Das wird dazu führen, dass potenzielle Hörer eher den richtigen Podcast für sie zum Hören finden.
+Durch PIS verbessert sich die Aktualität und der Umfang der leicht verfügbaren Information. Dadurch wird der Schritt vom Lean-Forward zum Lean-Back-Medium kleiner. Das wird dazu führen, dass potenzielle Hörer eher den richtigen Podcast für sie zum Hören finden.
 
 ###Hörern
 
@@ -47,5 +53,7 @@ Weitere Details zu unserem Vorhaben und wie wir gedenken, es umzusetzen folgen i
 Da es kein einfaches Unterfangen ist und wir möglichst bald erste in Software gegossene Problemlösungen veröffentlichen wollen sind wir über jegliche Hilfe dankbar.
 Jeder der unser Vorhaben unterstützen und Teil des Projekts werden will ist herzlich dazu eingeladen. Jegliche Hilfe ist jederzeit willkommen, egal ob Programmierer oder Admins, ob Designer oder Podcaster die über uns berichten und unsere Software testen wollen.
 
-
+```
 // beim schreiben dieses Textes ist mir aufgefallen, dass wir uns über die Ansprache der Leute Gedanken machen sollten, bzw. dass ich ungern entscheiden würde, ob wir mit du, Sie oder ihr die Leute ansprechen oder ob wir das generische Femininum oder Maskulinum verwenden sollten.
+```
+
