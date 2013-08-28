@@ -105,7 +105,7 @@ So muss nicht jeder Services eine eigene RESTful-API zur Verfügung stellen, son
 Sicher ließe sich diese auch als lokaler REST-Service ausführen. So könnte man wie gewohnt auf bestimmte Komponenten(zum Beispiel Inhaltssuche) des Backbones via Request zugreifen.
 Eine weitere Möglichkeit wäre, dem Application-Server direkt Zugriff auf eine Datenbank zu geben, welche das Backbone dann zum ablegen und abrufen von Informationen nutzt.
 
-Eine grobe Skizze der Idee findet ihr [hier](diagramm.png "Darstellung PIS") im unteren Bereich der Abbildung. Eine kurze Erklärung wird ggf. in der Konferenz folgen.
+Eine grobe Skizze der Idee findet ihr [hier](diagramm_big.png "Darstellung PIS") im unteren Bereich der Abbildung. Eine kurze Erklärung wird ggf. in der Konferenz folgen.
 
 
 ### Ein kurzer Abriss der Idee in Stichpunkten:
