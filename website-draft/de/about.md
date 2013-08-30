@@ -21,12 +21,12 @@ Ist das Metadatenproblem nicht nur ein Akademisches, welches gar keine wirkliche
 Mehr Semantik und Metadaten machen vieles einfacher und bedeuten (wenn es vernünftige Software dafür gibt) nur einen geringen bis gar keinen Mehraufwand.
 Unser Ziel ist es, durch möglichst vielseitige Automatisierung, den Aufwand beim Erstellen und Durchsuchen von Multimediainhalten sogar noch zu senken.
 
-##Was für Vorteile haben wie davon?
+##Was für ist der Nutzen?
 
 Die semantische Auswertung und Verknüpfung von Multimediainhalten, also in diesem Fall von Podcasts, bringt für alle Seiten wesentlich Vorteile in der Nutzung.
 Welche das für die einzelnen Gruppen sind soll unten weiter ausgeführt werden.
 
-###Podcaster
+###für Podcaster
 
 Wie bereits erwähnt, ist eines der Ziele, die "Arbeit" von Podcastern zu vereinfachen.
 Durch die Abbildung von Semantik und Metadaten im Podcastingsystem können viele Dinge automatisierter ablaufen.
@@ -35,14 +35,14 @@ Je mehr ein System von den Inhalten versteht, desto mehr kann es Arbeiten automa
 Ein leichterer Produktionsablauf des Podcasters etwa lässt diesem mehr Zeit für seine eigentliche Aufgabe, das Aufzeichnen von Podcasts.
 Von dieser zusätzlichen Zeit profitiert dann auch wieder der Hörer in Form von mehr, längeren oder besser vorbereiteten Podcastepisoden.
 
-###Hörer
+###für Hörer
 
 Je mehr eine Podcast-Software über den Inhalt eines Podcasts weiß, desto mehr kann es auch dem/der HörerIn helfen, Dinge zu hören, die ihm/ihr gefallen.
 Mit mehr Semantik lassen sich auch Abfragen über Podcasts, in welchen das selbe Thema, Produkt oder Event besprochen wurde, machen.
 Durch $PIS verbessert sich die Aktualität und der Umfang der leicht verfügbaren Information.
 Die Durchsuchbarkeit sowohl der Podcasts selbst, aber auch von zusätzlichen Inhalten, wie z.B. Chatlogs oder zugehörige Nachrichten in "sozialen" Netzwerken wird dadurch nicht nur ermöglicht, sondern auch zum Kinderspiel.
 
-###Drittdienste
+###für Drittdienste
 
 Da die Meisten der im Augenblick Beteiligten bei diversen Podcast bezogenen Drittdiensten mithelfen, bietet das Projekt in erster Linie auch den Drittdiensten die meisten Vorteile.
 Es muss jedoch erwähnt werden, dass sowohl Podcaster, als auch Hörer von besser funktionierenden Drittdiensten profitieren.
