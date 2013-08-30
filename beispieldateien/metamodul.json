@@ -1,0 +1,8 @@
+//work in progress! moduls infos for meta data
+{
+  "modul": ["redirect", "base", "meta-modul", "produce", "person", "geo", ..., "overview"]
+}
+
+...
+
+or other meta datas
