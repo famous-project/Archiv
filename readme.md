@@ -45,7 +45,7 @@ Da über die PIS Dateien verschiedenste Daten übertragen werden können/sollten
 * [**geo**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/geo.json) Geografika (Um Ortsdaten bei Dauerhaften Ereignissen zu übermitteln, bei zeitlich begrenzten Ereignissen bitte Events verwenden)
 * **recepie** um Arbeitsabläufe zu beschreiben
 * [**base**](https://github.com/McCouman/PIS-draft/blob/master/beispieldateien/base.json) Idee für die Standarddaten des Podcasts (Grundeinstellung)
-* ...
+* [**metamodul**](https://github.com/McCouman/PIS-draft/blob/master/beispieldateien/metamodul.json) Informationen zu den jeweilig aktiven Modulen
 
 Die [Beispieldateien](beispieldateien/) sind nur ein vorläufiger Entwurf. Die Dateien wurden als JSON gespeichert, enthalten jedoch mit // gekennzeichnete Kommentare, diese sind für gewöhnlich nicht in JSON erlaubt und dienen nur der Dokumentation.
 
