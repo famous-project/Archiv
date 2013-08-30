@@ -1,6 +1,7 @@
 //work in progress! moduls infos for meta data
 {
-  "modul": ["redirect", "base", "meta-modul", "produce", "person", "geo", ..., "overview"]
+  	"modul": ["redirect", "base", "meta-modul", "produce", "person", "geo", ..., "overview"],
+	"type": "podcast" 																			//ident the type of json information: "podcast" or "post"
 }
 
 ...
