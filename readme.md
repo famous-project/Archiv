@@ -45,7 +45,7 @@ Da über die PIS Dateien verschiedenste Daten übertragen werden können/sollten
 * [**geo**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/geo.json) Geografika (Um Ortsdaten bei Dauerhaften Ereignissen zu übermitteln, bei zeitlich begrenzten Ereignissen bitte Events verwenden)
 * **recepie** um Arbeitsabläufe zu beschreiben
 * [**base**](https://github.com/McCouman/PIS-draft/blob/master/beispieldateien/base.json) Idee für die Standarddaten des Podcasts (Grundeinstellung)
-* ...
+* [**metamodul**](https://github.com/McCouman/PIS-draft/blob/master/beispieldateien/metamodul.json) Informationen zu den jeweilig aktiven Modulen (Standard erst einmal Backbone)
 
 Die [Beispieldateien](beispieldateien/) sind nur ein vorläufiger Entwurf. Die Dateien wurden als JSON gespeichert, enthalten jedoch mit // gekennzeichnete Kommentare, diese sind für gewöhnlich nicht in JSON erlaubt und dienen nur der Dokumentation.
 
@@ -105,7 +105,7 @@ So muss nicht jeder Services eine eigene RESTful-API zur Verfügung stellen, son
 Sicher ließe sich diese auch als lokaler REST-Service ausführen. So könnte man wie gewohnt auf bestimmte Komponenten(zum Beispiel Inhaltssuche) des Backbones via Request zugreifen.
 Eine weitere Möglichkeit wäre, dem Application-Server direkt Zugriff auf eine Datenbank zu geben, welche das Backbone dann zum ablegen und abrufen von Informationen nutzt.
 
-Eine grobe Skizze der Idee findet ihr [hier](diagramm_big.png "Darstellung PIS") im unteren Bereich der Abbildung. Eine kurze Erklärung wird ggf. in der Konferenz folgen.
+Eine grobe Skizze der Idee findet ihr [hier](diagramme/diagramm_big.png "Darstellung PIS") im unteren Bereich der Abbildung. Eine kurze Erklärung wird ggf. in der Konferenz folgen.
 
 
 ### Ein kurzer Abriss der Idee in Stichpunkten:
