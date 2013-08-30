@@ -48,7 +48,7 @@ Frag uns einfach wo du helfen kannst: LINK ORGA-SEITE
 ###Als Programmierer oder Datenbank-Administrator
 
 Du würdest gerne auf Systemseite am Backbone arbeiten oder hast Vorschläge, was wir besser machen könnten?
-Dann sprich mit den Entwicklern: LINK BACKBOBE-TEAM
+Dann sprich mit den Entwicklern: LINK BACKBONE-TEAM
 
 
 ###Als Webentwickler oder Wordpressentwickler
