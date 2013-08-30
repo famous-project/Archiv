@@ -21,7 +21,7 @@ Ist das Metadatenproblem nicht nur ein Akademisches, welches gar keine wirkliche
 Mehr Semantik und Metadaten machen vieles einfacher und bedeuten (wenn es vernünftige Software dafür gibt) nur einen geringen bis gar keinen Mehraufwand.
 Unser Ziel ist es, durch möglichst vielseitige Automatisierung, den Aufwand beim Erstellen und Durchsuchen von Multimediainhalten sogar noch zu senken.
 
-##Cui bono?
+##Was für Vorteile haben wie davon?
 
 Die semantische Auswertung und Verknüpfung von Multimediainhalten, also in diesem Fall von Podcasts, bringt für alle Seiten wesentlich Vorteile in der Nutzung.
 Welche das für die einzelnen Gruppen sind soll unten weiter ausgeführt werden.
