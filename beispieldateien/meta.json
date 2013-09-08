@@ -1,0 +1,8 @@
+{
+  "modul": ["redirect", "base", "produce", "person", "geo", ..., "overview"], // a list of all supported PIS modules
+  "type": "podcast"                                                           //ident. the type of json information: "podcast", "post", "product", ...
+}
+
+...
+
+or other meta datas
