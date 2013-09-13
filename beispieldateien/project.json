@@ -2,12 +2,10 @@
   "type": "project",
   <!--------------------------------- prject basic data ------------------------------------------------------------------>
   "data": {
-    
     "name": "hörsuppe",
     "url": "http://hörsuppe.de",
     "logo": "http://hörsuppe.de/img/logos/mm_logo.png",
     "tags": ["macs", "apple", "technologie", "podcast", "technik"],
-    
     "content": {
       "download": {
         "audio/mpeg": "http://meta.metaebene.me/media/mm/mm114-ueber-state-redet-man-nicht-state-hat-man.mp3",
@@ -27,11 +25,9 @@
     }
     <!--------------------------------- /basic data ------------------------------------------------------------------>
   }, 
-  
-  <!--------------------------------- contact and information data --------------------------------------------------->
+<!--------------------------------- contact and information data --------------------------------------------------->
   "info": {
       "about": "Die Hörsuppe ist ein Podcastprojekt und bietet...",
-      
       //geodata project 
       "geo": { 
         "lat": 48.691532,
@@ -99,12 +95,10 @@
           "tel": "01234 / 56789-1",
           "fax": "01234 / 56789-2"
       	}
-      	
       	...
       }
   },
   <!--------------------------------- /contacts and information data --------------------------------------------------->
-  
   "ttl": 7200,                                        // time to live <https://en.wikipedia.org/wiki/Time_to_live> #g
   "origin": "http://mobilemacs.de/episodes/100.json", // on backup/fallback files to show the origin source
   "secure": {
