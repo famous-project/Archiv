@@ -30,21 +30,21 @@
   
   <!--------------------------------- contact and information data --------------------------------------------------->
   "info": {
-      "about": "Die Hörsuppe ist ein Podcastprojekt und bietet..."
+      "about": "Die Hörsuppe ist ein Podcastprojekt und bietet...",
       
       //geodata project 
       "geo": { 
         "lat": 48.691532,
-    	"long": 12.80575,
-    	"lat": [48.691532, 49.691532, 48.491532],   // for areas use an array
-    	"long": [12.80575, 12.20575, 13.80575],     // for areas use an array
-    	"adress": {                                 // optional
+    	  "long": 12.80575,
+    	  "lat": [48.691532, 49.691532, 48.491532],   // for areas use an array
+    	  "long": [12.80575, 12.20575, 13.80575],     // for areas use an array
+    	  "adress": {                                 // optional
           "name": "Max Mustermann",
           "street": "Musterstraße",
           "number": "23",
           "postalcode": "12345",
           "country": "Germany"
-    	}
+    	  }
       },
       //direkt prject contact data
       "contact": {
