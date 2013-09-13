@@ -5,7 +5,7 @@
    "data": {
     "name": "hörsuppe",
     "url": "http://hörsuppe.de",
-    "logo": "http://hörsuppe.de/img/logos/mm_logo.png",
+    "cover": "http://hörsuppe.de/img/logos/mm_logo.png",
     "tags": ["macs", "apple", "technologie", "podcast", "technik"],
     "content": {
       "download": {
@@ -55,11 +55,12 @@
         }
       },
 
-      "personal": {                                                                           // project managers 
+      "personal": {                                                                            // project managers 
       	"Max Mustermann": {
       	  "about": "Max ist der Developer von Projektname und findet Podcast geil...",
-      	  "area":"CEO",									      // area manager (sector or department for project)
-      	  "adress": {                                 					      // optional
+      	  "photo": "http://...(.png)",                                                         // image (gravatar?) 
+         "area":"CEO",									           // area manager (sector or department for project)
+      	  "adress": {                                 					    // optional
       	     "street": "Musterstraße",
       	     "number": "23",
       	     "postalcode": "12345",
@@ -78,8 +79,9 @@
       	 }, 
       	"Hubert Mustermann": {
       	  "about": "Hubert ist der Developer von Projektname und findet Podcast geil...",
-      	  "area": "COO",                                                                      // area manager (sector or department for project)
-          "adress": {                                 					      // optional
+      	  "photo": "http://...(.png)",                                                         // image (gravatar?)
+          "area": "COO",                                                                       // area manager (sector or department for project)
+          "adress": {                                 					    // optional
       	     "street": "Musterstraße",
       	      "number": "23",
       	      "postalcode": "12345",
