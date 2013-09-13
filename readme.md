@@ -39,7 +39,7 @@ Da über die PIS Dateien verschiedenste Daten übertragen werden können/sollten
 * [**overview**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/overview.json) Übersicht (um alle unter dieser Domain verfügbaren PIS Dateien aufzulisten)
 * Namen (als Übersicht ähnlich der Wikipedia Begriffsklärungsseiten (Diese Seite ist eine Begriffsklärung zur Unterscheidung mehrerer mit demselben Wort bezeichneter Begriffe.))
 * [**person**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/person.json) Personen (ausschließlich natürliche Personen und keine juristische Personen)
-* Körperschaften, Firmen, Vereinigungen, Communitys
+* [**project**](https://github.com/McCouman/PIS-draft/blob/master/beispieldateien/project.json) Körperschaften, Firmen, Projekte, Vereinigungen, Communitys
 * Events (im Podcast Bezug hauptsächlich Hörertreffen und Workshops)
 * [**produce**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/produce.json) Werke (Veröffentlichungen jeglicher Art, sowohl live als auch Aufzeichnungen)
 * [**geo**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/geo.json) Geografika (Um Ortsdaten bei Dauerhaften Ereignissen zu übermitteln, bei zeitlich begrenzten Ereignissen bitte Events verwenden)
