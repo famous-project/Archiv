@@ -55,19 +55,19 @@
           "facebook": 	"https//facebook.com/page/123456789/projectname",
           "...": "",
           "...": ""
-        },
-      }
+        }
+      },
       //project manager 
       "personal": {
       	"Max Mustermann": {
       	  "about": "Max ist der Developer von Projectname und findet Podcast geil...",
-      	  "area": "CEO",																	// area manager (sector or department for project)
+      	  "area": "CEO",																	                // area manager (sector or department for project)
           "adress": {                                 										// optional
-      		"street": "Musterstraße",
-      		"number": "23",
-      		"postalcode": "12345",
-      		"country": "Germany"
-    	  }
+      		  "street": "Musterstraße",
+      	  	"number": "23",
+      		  "postalcode": "12345",
+      		  "country": "Germany"
+    	    },
       	  "social": {
           	"adn": 		"https://alpha.app.net/maximan",
           	"twitter": 	"https//twitter.com/maxchen",
@@ -76,24 +76,28 @@
           	"...": ""
           },
           "mail": "max.mustermann@project.tld",
+          "tel": "01234 / 56789-1",
+          "fax": "01234 / 56789-2"
       	}, 
       	"Hubert Mustermann": {
       	  "about": "Hubert ist der Developer von Projectname und findet Podcast geil...",
-      	  "area": "COO",																	// area manager (sector or department for project)
-      	  "mail": "hubert.mustermann@project.tld",
-      	  "social": {
+      	  "area": "COO",																   	              // area manager (sector or department for project)
+          "adress": {                                 										// optional
+      		  "street": "Musterstraße",
+      		  "number": "23",
+      		  "postalcode": "12345",
+      		  "country": "Germany"
+    	    },
+    	    "social": {
           	"adn": 		"https://alpha.app.net/hubertman",
           	"twitter": 	"https//twitter.com/hubertchen",
           	"facebook": "https//facebook.com/hubert.mustermann",
           	"...": "",
           	"...": ""
           },
-          "adress": {                                 										// optional
-      		"street": "Musterstraße",
-      		"number": "23",
-      		"postalcode": "12345",
-      		"country": "Germany"
-    	  }
+          "mail": "hubert.mustermann@project.tld",
+          "tel": "01234 / 56789-1",
+          "fax": "01234 / 56789-2"
       	}
       	
       	...
