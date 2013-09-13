@@ -1,0 +1,17 @@
+{
+  "type": "redirect",
+  "data": {
+    "location": "http://my.own.domain.tld/pis-control-center/data/the-real-pis-data.json"
+  },
+  "ttl": 3600,                                      // time to live in seconds <https://en.wikipedia.org/wiki/Time_to_live> #g
+  "origin": "http://example.org/redirect.pis.json", // on backup/fallback files to show the origin source
+  "secure": {
+    "hash": {                                       // to check for changes
+      "whirlpool": "9923afaec3a86f865bb231a588f453f84e8151a2deb4109aebc6de4284be5bebcff4fab82a7e51d920237340a043736e9d13bab196006dcca0fe65314d68eab9",
+      "md5": "344aab9758bb0d018b93739e7893fb3a",
+      "crc32": "215568175"
+    },
+    "ca": "http://example.org/pgp.asc",             // Certificate authority
+    "signature": ""                                 // GPG Signature
+  }
+}

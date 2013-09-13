@@ -1,0 +1,54 @@
+{
+  "type": "produce",
+  "data": {
+    "name": "mobileMacs 100",
+    "tags": ["macs", "apple", "technologie", "podcast", "technik"],
+    "partof": {
+      "name": "mobileMacs",
+      "url": "http://mobilemacs.de/produce.json", // PIS file of the podcast
+      "parts": 114,                               // all episodes
+      "part": 100                                 // count episodes
+    }
+    "type": "audio",
+    "start": 1374594630,   // UNIX Timestamp or ISO8601, only for livestreams
+    "end": 1375563291,     // UNIX Timestamp or ISO8601, only for livestreams
+    "publish": 1385000000, // UNIX Timestamp or ISO8601, only for downloadable content
+    "content": {
+      "download": {
+        "audio/mpeg": "http://meta.metaebene.me/media/mm/mm114-ueber-state-redet-man-nicht-state-hat-man.mp3",
+        "audio/opus": "http://meta.metaebene.me/media/mm/mm114-ueber-state-redet-man-nicht-state-hat-man.opus",
+        "application/osf+json": "http://shownot.es/api/mm/100/?type=osf",
+        "application/pdf": "http://shownot.es/api/mm/100/?type=pdf",
+        "application/ptl+xml": "http://shownot.es/api/mm/100/?type=ptl"
+      },
+      "stream": {
+        "audio/mpeg": "http://streams.xenim.de/metaebene.mp3",
+        "audio/x-aac": "http://streams.xenim.de/metaebene.aac"
+      },
+      "shopping": {
+        "DVD": ["http://www.amazon.de/dp/B00005NFD0/", "http://www.weltbild.de/3/13798718-1/dvd/der-staatsfeind-nr-1.html"],
+        "BluRay": "http://www.amazon.de/dp/B000NDFESW/"     // string if only one value is needed
+      },
+      "logo": "http://shownot.es/img/logos/mm_logo.png",
+      "info": {
+        "review": [                                         // use an array for more sources
+          "http://hoersuppe.de/2012/11/29/vorhersage-donnerstag-29-11-2012/",
+          "http://shownot.es/mm/100"
+        ],
+        "notes": "http://shownot.es/mm/100",
+        "transcript": "http://podcascription.de/projekte/projekt-mobilemacs/100/"
+      }
+    }
+  },
+  "ttl": 7200,                                        // time to live <https://en.wikipedia.org/wiki/Time_to_live> #g
+  "origin": "http://mobilemacs.de/episodes/100.json", // on backup/fallback files to show the origin source
+  "secure": {
+    "hash": {                                         // to check for changes
+      "whirlpool": "9923afaec3a86f865bb231a588f453f84e8151a2deb4109aebc6de4284be5bebcff4fab82a7e51d920237340a043736e9d13bab196006dcca0fe65314d68eab9",
+      "md5": "344aab9758bb0d018b93739e7893fb3a",
+      "crc32": "215568175"
+    },
+    "ca": "http://example.org/pgp.asc",               // Certificate authority
+    "signature": ""                                   // GPG Signature
+  }
+}

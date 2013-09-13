@@ -1,0 +1,54 @@
+{
+  "type": "produce",
+  "data": {
+    "familyname": "Musterman",
+    "name": "Max",
+    "nick": "Maxi",
+    "title": "Doctor of Medicine",
+    "org": ["Musterfirma GmbH & Co KG", "Chaos Computer Club"], // list alle organisations in an array or only one in a string
+    "photo": "http://max.musterman.tld/me.png", 
+    "contact": {
+      "private": {
+        "tel": "0049 159 11231312009",
+        "email": "max.mustermann@gmail.tld",
+        "adress": { 
+          "name": "Max Mustermann",
+          "street": "Musterstraße",
+          "number": "23",
+          "postalcode": "12345",
+          "country": "Germany"
+        },
+        "verified": ["email", "adress", "tel"] // an array of all verified values
+      },
+      "Musterfirma GmbH & Co KG": { // use org values as keys
+        "tel": "0049 151 11231231921",
+        "email": "max.mustermann@musterfirma.tld"
+      }
+    },
+    "identify": [
+      "9923afaec3a86f865bb231a588f453f84e8151a2deb4109aebc6de4284be5bebcff4fab82a7e51d920237340a043736e9d13bab196006dcca0fe65314d68eab9",
+      "1ea78ef518b07037592c2622d628fb16e9fd06ecb8579045ef39c8c8e0ce98ce47575b2c80ac654136ccd23a41560a17709eb6bfa09d2f8f05c23998ed901023",
+      "081675075aea0c026bc66a85f8f33daf891c201b5c35745d84d846b79caa8a113f35599d03316b7a8cc97a6fb96ea54a98dc1877fd5b20e2e281ca4c88937f90",
+      "593adc2fd32535e97947f4151ada86d15b91c6dea5c86596a4a441d30bf761761bd974285050d3075e6ed116efc7d0a05908f027240c622afd295b7ba404bc80",
+      "4d759056e46414db7215bc53e7" // (whirlpool) hash of profile URL (e.g. http://twitter.com/simonwaldherr), or a link to the communication foo (e.g. mailto:mail@example.org or tel:004915111234567890)
+    ],
+    "contacts": [
+      "http://example.org/persons/johndoe.json",       // url to PIS person JSON file
+      "http://example.org/persons/johnappleseed.json"
+    ],
+    "portfolio": [
+      "http://example.org/produce/mobilemacs.json"     // url to PIS produce JSON file
+    ]
+  },
+  "ttl": 7200,                                 // time to live <https://en.wikipedia.org/wiki/Time_to_live> #g
+  "origin": "http://example.org/geo.pis.json", // on backup/fallback files to show the origin source
+  "secure": {
+    "hash": {                                  // to check for changes
+      "whirlpool": "9923afaec3a86f865bb231a588f453f84e8151a2deb4109aebc6de4284be5bebcff4fab82a7e51d920237340a043736e9d13bab196006dcca0fe65314d68eab9",
+      "md5": "344aab9758bb0d018b93739e7893fb3a",
+      "crc32": "215568175"
+    },
+    "ca": "http://example.org/pgp.asc", // Certificate authority
+    "signature": ""                     // GPG Signature
+  }
+}
