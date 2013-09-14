@@ -32,20 +32,22 @@ Das Dateiformat muss möglichst von vielen Programmiersprachen verwendet werden 
 * ...
 
 ###Entitätentypen
-
 Da über die PIS Dateien verschiedenste Daten übertragen werden können/sollten ist eine Kategorisierung in Entitäten sinnvoll. Ähnlich wie in anderen Datensammlungen werden folgende Entitäten vorgeschlagen, diese Liste sollte jedoch erweiterbar sein, falls notwendig:
+
+<img src="https://raw.github.com/SimonWaldherr/PIS-draft/master/diagramme/Podcast%20Information%20System.png" />
+
 
 * [**redirect**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/redirect.json) Weiterleitung (Weiterleitung auf andere PIS Dateien (zu verwenden auf Systemen die keine Weiterleitung (HTTP 301/2) unterstützen))
 * [**overview**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/overview.json) Übersicht (um alle unter dieser Domain verfügbaren PIS Dateien aufzulisten)
 * Namen (als Übersicht ähnlich der Wikipedia Begriffsklärungsseiten (Diese Seite ist eine Begriffsklärung zur Unterscheidung mehrerer mit demselben Wort bezeichneter Begriffe.))
 * [**person**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/person.json) Personen (ausschließlich natürliche Personen und keine juristische Personen)
-* Körperschaften, Firmen, Vereinigungen, Communitys
+* [**project**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/project.json) Körperschaften, Firmen, Projekte, Vereinigungen, Communitys
 * Events (im Podcast Bezug hauptsächlich Hörertreffen und Workshops)
 * [**produce**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/produce.json) Werke (Veröffentlichungen jeglicher Art, sowohl live als auch Aufzeichnungen)
 * [**geo**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/geo.json) Geografika (Um Ortsdaten bei Dauerhaften Ereignissen zu übermitteln, bei zeitlich begrenzten Ereignissen bitte Events verwenden)
 * **recepie** um Arbeitsabläufe zu beschreiben
-* [**base**](https://github.com/McCouman/PIS-draft/blob/master/beispieldateien/base.json) Idee für die Standarddaten des Podcasts (Grundeinstellung)
-* [**metamodul**](https://github.com/McCouman/PIS-draft/blob/master/beispieldateien/metamodul.json) Informationen zu den jeweilig aktiven Modulen (Standard erst einmal Backbone)
+* [**base**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/base.json) Idee für die Standarddaten des Podcasts (Grundeinstellung)
+* [**meta**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/meta.json) Informationen zu den jeweilig aktiven Modulen (Standard erst einmal Backbone)
 
 Die [Beispieldateien](beispieldateien/) sind nur ein vorläufiger Entwurf. Die Dateien wurden als JSON gespeichert, enthalten jedoch mit // gekennzeichnete Kommentare, diese sind für gewöhnlich nicht in JSON erlaubt und dienen nur der Dokumentation.
 
