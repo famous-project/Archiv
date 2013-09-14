@@ -1,7 +1,13 @@
 Webpage
 --------
 
-#Einrichten:
+Die Website parst automatisch markdown basierende dateien. Ihr findet diese unter dem Ordner <a href="https://github.com/McCouman/PIS-draft/tree/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/help">help</a>.
+Dieser kann auch <a href="https://github.com/McCouman/PIS-draft/blob/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/index.php#L6">verendert und angepasst</a> werden.
+
+Die Navigation & Links passen sich auctomatisch <a href="https://github.com/McCouman/PIS-draft/tree/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/help">der Ordnung</a> an. 
+
+
+###Einrichten:
 
 **Settings:**
 
