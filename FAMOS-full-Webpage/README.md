@@ -1,21 +1,25 @@
 Webpage
 --------
 
-Die Website parst automatisch markdown basierende dateien. Ihr findet diese unter dem Ordner <a href="https://github.com/McCouman/PIS-draft/tree/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/help">help</a>.
-Dieser kann auch <a href="https://github.com/McCouman/PIS-draft/blob/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/index.php#L6">verendert und angepasst</a> werden.
+Die Website parst automatisch markdown basierende dateien. Ihr findet diese unter dem Ordner <a target="_blank" href="https://github.com/McCouman/PIS-draft/tree/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/help">help</a>.
+Dieser kann auch <a target="_blank" href="https://github.com/McCouman/PIS-draft/blob/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/index.php#L6">verendert und angepasst</a> werden.
+Die Navigation & Links passen sich auctomatisch 
+<a target="_blank" href="https://github.com/McCouman/PIS-draft/tree/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/help">der Ordnung</a> an. 
+Die Information auf der Startseite befinden sich hierbei in der 
+<a target="_blank" href="https://github.com/McCouman/PIS-draft/blob/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/help/index.md">index.md</a>.
 
-Die Navigation & Links passen sich auctomatisch <a href="https://github.com/McCouman/PIS-draft/tree/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/help">der Ordnung</a> an. 
-
+Es können die Funktionen von <a target="_blank" href="http://getbootstrap.com/css/">Bootstrap genutzt werden, es gibt auch eine 
+<a target="_blank" href="https://github.com/McCouman/PIS-draft/blob/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/help/07_Exemples/01_Examples.md>Exemple</a>
 
 ###Einrichten:
 
 **Settings:**
 
-Siehe unter <a href="https://github.com/McCouman/PIS-draft/blob/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/setup.php">setup.php</a>
+Siehe unter <a target="_blank" href="https://github.com/McCouman/PIS-draft/blob/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/setup.php">setup.php</a>
 
 **Zum bearbeiten der Hauptseite:**
 
-Siehe unter <a href="hhttps://github.com/McCouman/PIS-draft/blob/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/config.json">config.json</a>
+Siehe unter <a target="_blank" href="hhttps://github.com/McCouman/PIS-draft/blob/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/config.json">config.json</a>
 
 
 ###Home mit Podlove Webplayer
