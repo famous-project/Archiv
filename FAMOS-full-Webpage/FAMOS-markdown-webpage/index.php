@@ -3,7 +3,7 @@
 require_once('libs/functions.php');
 
 $options = get_options();
-$tree = get_tree("help", $base_url);
+$tree = get_tree("docs", $base_url);
 $homepage_url = homepage_url($tree);
 $docs_url = docs_url($tree);
 
@@ -26,7 +26,7 @@ if ($homepage) {
 } else { 
 	
 	//Hilfeseiten
-	include('helping.php');
+	include('pages.php');
 
 } ?>
 
