@@ -1,6 +1,6 @@
 <?php
 //Install Pfad:
-$Server_Link = 'http://localhost:8888/home';
+$Server_Link = 'http://localhost:8888/FAMOS-markdown-webpage'; //no "/" please ;)
 
 //Standards
 $System_Name = "FAMOS";
