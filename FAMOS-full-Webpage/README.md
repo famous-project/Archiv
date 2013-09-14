@@ -3,10 +3,10 @@ Webpage
 
 Die Website parst automatisch markdown basierende Dateien. 
 
-Ihr findet diese unter dem Ordner: "<a target="_blank" href="https://github.com/McCouman/PIS-draft/tree/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/help">help</a>" 
+Ihr findet diese unter dem Ordner: "<a target="_blank" href="https://github.com/McCouman/PIS-draft/tree/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/docs">docs</a>" 
 und kann auch <a target="_blank" href="https://github.com/McCouman/PIS-draft/blob/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/index.php#L6">verendert und angepasst</a> werden.
 
-Die Navigation & Links passen sich automatisch der Ordnung: "00"_"Page"_"Name" der Dateien aus dem <a target="_blank" href="https://github.com/McCouman/PIS-draft/tree/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/help">Ordner: "help"</a> an. 
+Die Navigation & Links passen sich automatisch der Ordnung: "00"_"Page"_"Name" der Dateien aus dem <a target="_blank" href="https://github.com/McCouman/PIS-draft/tree/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/docs">Ordner: "docs"</a> an. 
 
 Die Information auf der Startseite befinden sich hierbei in der 
 <a target="_blank" href="https://github.com/McCouman/PIS-draft/blob/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/help/index.md">index.md</a>.
