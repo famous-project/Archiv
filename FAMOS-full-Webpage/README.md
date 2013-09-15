@@ -4,6 +4,9 @@ Webpage
 Die Website parst automatisch markdown basierende Dateien. <br>Ihr findet diese unter dem Ordner: "<a target="_blank" href="https://github.com/McCouman/PIS-draft/tree/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/docs">docs</a>" 
 und kann auch <a target="_blank" href="https://github.com/McCouman/PIS-draft/blob/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/index.php#L6">verendert und angepasst</a> werden.
 
+**Testpage**: <a href="http://dev.wikibyte.org/FAMOS/">hier als Test zu finden (Wikibyte)</a>
+
+
 <img src="https://raw.github.com/McCouman/PIS-draft/master/FAMOS-full-Webpage/home-podlove.png">
 
 ###Navigation
