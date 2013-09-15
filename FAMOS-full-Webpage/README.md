@@ -25,7 +25,7 @@ Es können die Funktionen von <a target="_blank" href="http://getbootstrap.com/c
 
 **Settings:** Siehe unter <a target="_blank" href="https://github.com/McCouman/PIS-draft/blob/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/setup.php">setup.php</a>
 
-**Zum bearbeiten der Hauptseite:** Siehe unter <a target="_blank" href="hhttps://github.com/McCouman/PIS-draft/blob/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/config.json">config.json</a>
+**Zum bearbeiten der Hauptseite:** Siehe unter <a target="_blank" href="https://github.com/McCouman/PIS-draft/blob/master/FAMOS-full-Webpage/FAMOS-markdown-webpage/config.json">config.json</a>
 
 
 ##Übersicht (Standard ohne Podlove)
