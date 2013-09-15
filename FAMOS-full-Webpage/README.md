@@ -6,6 +6,7 @@ und kann auch <a target="_blank" href="https://github.com/McCouman/PIS-draft/blo
 
 **Testpage**: <a href="http://dev.wikibyte.org/FAMOS/">hier als Test zu finden (Wikibyte)</a>
 
+Im Footer ist ein random für die Projekt Covers (Werbung muss sein?). Zusätzlich klappt am Ende ein Info Footer mit den wichtigsten Links zum Projekt auf.
 
 <img src="https://raw.github.com/McCouman/PIS-draft/master/FAMOS-full-Webpage/home-podlove.png">
 
