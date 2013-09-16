@@ -34,7 +34,11 @@ Das Dateiformat muss möglichst von vielen Programmiersprachen verwendet werden 
 ###Entitätentypen
 Da über die PIS Dateien verschiedenste Daten übertragen werden können/sollten ist eine Kategorisierung in Entitäten sinnvoll. Ähnlich wie in anderen Datensammlungen werden folgende Entitäten vorgeschlagen, diese Liste sollte jedoch erweiterbar sein, falls notwendig:
 
+<<<<<<< HEAD
 <img src="https://raw.github.com/SimonWaldherr/PIS-draft/master/diagramme/Podcast%20Information%20System.png" />
+=======
+<img src="diagramme/04_Json-U%CC%88bersicht/U%CC%88bersicht.png" />
+>>>>>>> fc7ddf9dd44dff05d3d8cd9ddf0d6bce143e75e1
 
 
 * [**redirect**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/redirect.json) Weiterleitung (Weiterleitung auf andere PIS Dateien (zu verwenden auf Systemen die keine Weiterleitung (HTTP 301/2) unterstützen))
@@ -57,6 +61,8 @@ Um die Daten an andere Systeme zu übergeben ist ein Push-Dienst geplant, jeder 
 Beim Push von PIS-Daten wird nur die URL des Objekts übergeben, das nutzende System muss die Daten dann selbst abrufen. Durch diese Art des Push wird es vereinfacht, die ursprüngliche Herkunft der Daten zu verifizieren.
 Zusätzlich zum Push ist auch eine Eintragung in Feeds, als DNS Eintrag und mittels einer PIS Datei im Root Verzeichnis der Webseite (wie auch bei robots.txt, humans.txt, sitemap.xml, favicon.ico, apple-touch-icon-precomposed.png, ...) möglich.
 Neben der Verbreitung als JSON Datei ist auch ein Transfer der Daten im PIS-Backbone geplant.
+
+<img width="450px" src="diagramme/03_Datenverkehr/idee-doku-datenverkehr.png">
 
 ###API
 
@@ -107,7 +113,7 @@ So muss nicht jeder Services eine eigene RESTful-API zur Verfügung stellen, son
 Sicher ließe sich diese auch als lokaler REST-Service ausführen. So könnte man wie gewohnt auf bestimmte Komponenten(zum Beispiel Inhaltssuche) des Backbones via Request zugreifen.
 Eine weitere Möglichkeit wäre, dem Application-Server direkt Zugriff auf eine Datenbank zu geben, welche das Backbone dann zum ablegen und abrufen von Informationen nutzt.
 
-Eine grobe Skizze der Idee findet ihr [hier](diagramme/diagramm_big.png "Darstellung PIS") im unteren Bereich der Abbildung. Eine kurze Erklärung wird ggf. in der Konferenz folgen.
+Eine grobe Skizze der Idee findet ihr [hier](/diagramme/01_diagramm-funktion/diagramm_big.png "Darstellung PIS") im unteren Bereich der Abbildung. Eine kurze Erklärung wird ggf. in der Konferenz folgen.
 
 
 ### Ein kurzer Abriss der Idee in Stichpunkten:
