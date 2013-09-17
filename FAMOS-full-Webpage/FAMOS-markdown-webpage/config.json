@@ -1,0 +1,53 @@
+{
+	"title": "Famos",
+	"tagline": "The Easiest Way To Document Your Project",
+	"image": "img/favicon.png",
+	
+	"repo": "https://github.com/SimonWaldherr/PIS-draft",
+	
+	"twitter": ["hubert", "nocheiner"],
+	
+	"podlove":"true",
+
+	"links": {
+		"GitHub": "https://github.com/SimonWaldherr/PIS-draft",
+		"Help / Support / Bugs ": "https://github.com/SimonWaldherr/PIS-draft",
+		"Kontakt": "https://github.com/SimonWaldherr/PIS-draft"
+	},
+    
+    "wellcome_h1": "<span style='color:#22A6DA;'>Etiamde </span><span style='color:#0E566D;'>Null!</span>",
+    "wellcome_p": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. <br />Nullam id dolor id nibh ultricies vehicula",
+    
+    
+    
+    "market_h1": "OSMOS",
+    "market_img1":"img/osmos.png",
+    "market_1": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
+    "market_link1": "http://...",
+    
+    "market_h2": "FAMOS",
+    "market_img2":"img/famos.png",
+    "market_2": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
+    "market_link2": "http://...",
+    
+    "market_h3": "JODA",
+    "market_img3":"img/140-140.png",
+    "market_3": "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.",
+    "market_link3": "http://...",
+    
+    
+	"prject_1": "<a href=''><img data-src='holder.js/220x80' class='img-responsive img-rounded'></a>",
+	"prject_2": "<a href=''><img data-src='holder.js/220x80' class='img-responsive img-rounded'></a>",
+	"prject_3": "<a href=''><img data-src='holder.js/220x80' class='img-responsive img-rounded'></a>",
+	"prject_4": "<a href=''><img data-src='holder.js/220x80' class='img-responsive img-rounded'></a>",
+	"prject_5": "<a href=''><img data-src='holder.js/220x80' class='img-responsive img-rounded'></a>",
+	"prject_6": "<a href=''><img data-src='holder.js/220x80' class='img-responsive img-rounded'></a>",
+	"prject_7": "<a href=''><img data-src='holder.js/220x80' class='img-responsive img-rounded'></a>",
+	"prject_8": "<a href=''><img data-src='holder.js/220x80' class='img-responsive img-rounded'></a>",
+	"prject_9": "<a href=''><img data-src='holder.js/220x80' class='img-responsive img-rounded'></a>",
+ 
+    
+    "copyright": "Famos",
+	"copy_url": "http://..." 
+    
+}

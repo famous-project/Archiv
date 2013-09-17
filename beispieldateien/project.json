@@ -1,0 +1,118 @@
+{
+
+<!--------------------------------- (header) project basic data ------------------------------------------------------------------>
+  "type": "project",
+   "data": {
+    "name": "hörsuppe",
+    "url": "http://hörsuppe.de",
+    "cover": "http://hörsuppe.de/img/logos/mm_logo.png",
+    "tags": ["macs", "apple", "technologie", "podcast", "technik"],
+    "content": {
+      "download": {
+        "audio/mpeg": "http://meta.metaebene.me/media/mm/mm114-ueber-state-redet-man-nicht-state-hat-man.mp3",
+        "audio/opus": "http://meta.metaebene.me/media/mm/mm114-ueber-state-redet-man-nicht-state-hat-man.opus",
+        "application/osf+json": "http://shownot.es/api/mm/100/?type=osf",
+        "application/pdf": "http://shownot.es/api/mm/100/?type=pdf",
+        "application/ptl+xml": "http://shownot.es/api/mm/100/?type=ptl"
+      },
+      "stream": {
+        "audio/mpeg": "http://streams.xenim.de/metaebene.mp3",
+        "audio/x-aac": "http://streams.xenim.de/metaebene.aac"
+      },
+      "shopping": {
+        "DVD": ["http://www.amazon.de/dp/B00005NFD0/", "http://www.weltbild.de/3/13798718-1/dvd/der-staatsfeind-nr-1.html"],
+        "BluRay": "http://www.amazon.de/dp/B000NDFESW/"     					 // string if only one value is needed
+      }
+    }
+  },
+
+<!--------------------------------- (container) contact and information data --------------------------------------------------->
+  "info": {
+      "about": "Die Hörsuppe ist ein Podcast Projekt und bietet...",
+      
+      "geo": {                                                                              // project geodata
+        "lat": 48.691532,
+    	  "long": 12.80575,
+    	  "lat": [48.691532, 49.691532, 48.491532],   // for areas use an array
+    	  "long": [12.80575, 12.20575, 13.80575],     // for areas use an array
+    	  "adress": {                                 // optional
+          "name": "Max Mustermann",
+          "street": "Musterstraße",
+          "number": "23",
+          "postalcode": "12345",
+          "country": "Germany"
+    	  }
+      },
+
+      "contact": {                                                                           // project data (contact)
+        "mail": "fragen@projectname.tld",
+        "social": {
+          "adn": "https://alpha.app.net/projectname",
+          "twitter": "https//twitter.com/projectname",
+          "facebook": "https//facebook.com/page/123456789/projectname",
+          "...": "",
+          "...": ""
+        }
+      },
+
+      "personal": {                                                                            // project managers 
+      	"Max Mustermann": {
+      	  "about": "Max ist der Developer von Projektname und findet Podcast geil...",
+      	  "photo": "http://...(.png)",                                                         // image (gravatar?) 
+         "area":"CEO",									           // area manager (sector or department for project)
+      	  "adress": {                                 					    // optional
+      	     "street": "Musterstraße",
+      	     "number": "23",
+      	     "postalcode": "12345",
+      	     "country": "Germany"
+    	   },
+      	  "social": {
+      	     "adn": "https://alpha.app.net/maximan",
+      	     "twitter": "https//twitter.com/maxchen",
+      	     "facebook": "https//facebook.com/max.mustermann",
+      	     "...": "",
+      	     "...": ""
+          },
+      	  "mail": "max.mustermann@project.tld",
+      	  "tel": "01234 / 56789-1",
+      	  "fax": "01234 / 56789-2"
+      	 }, 
+      	"Hubert Mustermann": {
+      	  "about": "Hubert ist der Developer von Projektname und findet Podcast geil...",
+      	  "photo": "http://...(.png)",                                                         // image (gravatar?)
+          "area": "COO",                                                                       // area manager (sector or department for project)
+          "adress": {                                 					    // optional
+      	     "street": "Musterstraße",
+      	      "number": "23",
+      	      "postalcode": "12345",
+      	      "country": "Germany"
+    	   },
+          "social": {
+             "adn": "https://alpha.app.net/hubertman",
+             "twitter": "https//twitter.com/hubertchen",
+             "facebook": "https//facebook.com/hubert.mustermann",
+             "...": "",
+             "...": ""
+          },
+          "mail": "hubert.mustermann@project.tld",
+          "tel": "01234 / 56789-1",
+          "fax": "01234 / 56789-2"
+      	}
+      	...
+      }
+  },
+
+<!--------------------------------- (footer) signatur - ttl --------------------------------------------------->
+  "ttl": 7200,                                                                                 // time to live <https://en.wikipedia.org/wiki/Time_to_live> #g
+  "origin": "http://mobilemacs.de/episodes/100.json",                                          // on backup/fallback files to show the origin source
+  "secure": {
+    "hash": {                                                                                  // to check for changes
+      "whirlpool": "9923afaec3a86f865bb231a588f453f84e8151a2deb4109aebc6de4284be5bebcff4fab82a7e51d920237340a043736e9d13bab196006dcca0fe65314d68eab9",
+      "md5": "344aab9758bb0d018b93739e7893fb3a",
+      "crc32": "215568175"
+    },
+    "ca": "http://example.org/pgp.asc",                                                       // Certificate authority
+    "signature": ""                                                                           // GPG Signature
+  }
+
+}
