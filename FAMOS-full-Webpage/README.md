@@ -3,39 +3,39 @@ Webpage
 
 Die Website parst automatisch Markdown basierende Dateien.
 <br>
-Ihr findet diese unter dem Ordner: [docs](FAMOS-full-Webpage/FAMOS-markdown-webpage/docs) dieser kann dort auch [verändert und angepasst](FAMOS-full-Webpage/FAMOS-markdown-webpage/index.php#L6) werden. 
+Ihr findet diese unter dem Ordner: [docs](FAMOS-markdown-webpage/docs) dieser kann dort auch [verändert und angepasst](FAMOS-markdown-webpage/index.php#L6) werden. 
 
 **Testpage**: [hier als Test zu finden (Wikibyte)](http://dev.wikibyte.org/FAMOS/)
 
 Im Footer ist ein random für die Projekt Cover (Werbung muss sein?). Zusätzlich klappt am Ende der Seite ein Info Footer mit den wichtigsten Links zum Projekt auf.
 
 
-![Screenschot](FAMOS-full-Webpage/home-podlove.png "Screenshot")
+![Screenschot](home-podlove.png "Screenshot")
 
 ###Navigation
-Navigation & Links passen sich automatisch der Ordnung: "00"_"Page"_"Name" der Dateien aus dem Ordner [docs](FAMOS-full-Webpage/FAMOS-markdown-webpage/docs) an.
+Navigation & Links passen sich automatisch der Ordnung: "00"_"Page"_"Name" der Dateien aus dem Ordner [docs](FAMOS-markdown-webpage/docs) an.
 
-![Navigation](https://raw.github.com/McCouman/PIS-draft/master/FAMOS-full-Webpage/Navi.png "Navigation")
+![Navigation](Navi.png "Navigation")
 
 ###Startseite
-Die Einstellungen der Startseite befinden sich hierbei in der [index.md](FAMOS-full-Webpage/FAMOS-markdown-webpage/help/index.md) und können dort geändert und angepasst werden.
+Die Einstellungen der Startseite befinden sich hierbei in der [index.md](FAMOS-markdown-webpage/help/index.md) und können dort geändert und angepasst werden.
 
 ###Funktionen
-Es können die Funktionen von [Bootstrap](http://getbootstrap.com/css/) Bootstrap genutzt werden. Es gibt auch ein [Example](FAMOS-full-Webpage/FAMOS-markdown-webpage/docs/100_Examples/01_Examples.md).
+Es können die Funktionen von [Bootstrap](http://getbootstrap.com/css/) Bootstrap genutzt werden. Es gibt auch ein [Example](FAMOS-markdown-webpage/docs/100_Examples/01_Examples.md).
 
-![Example](FAMOS-full-Webpage/exemple.png)
+![Example](example.png)
 
 
 ##Einrichten
 
-**Settings:** Siehe unter [setup.php](FAMOS-full-Webpage/FAMOS-markdown-webpage/setup.php)
+**Settings:** Siehe unter [setup.php](FAMOS-markdown-webpage/setup.php)
 
-**Zum bearbeiten der Hauptseite:** Siehe unter [config.json](FAMOS-full-Webpage/FAMOS-markdown-webpage/config.json)
+**Zum bearbeiten der Hauptseite:** Siehe unter [config.json](FAMOS-markdown-webpage/config.json)
 
 
 ##Übersicht (Standard ohne Podlove)
-![Ohne Podlove](FAMOS-full-Webpage/full.png)
+![Ohne Podlove](full.png)
 
 ###Responsive Design mit Bootstraps
-![Mit Bootstrap 1](FAMOS-full-Webpage/responsive.png) 
-![Mit Bootstrap 1](FAMOS-full-Webpage/responsive2.png) 
+![Mit Bootstrap 1](responsive.png) 
+![Mit Bootstrap 1](responsive2.png) 
