@@ -34,11 +34,9 @@ Das Dateiformat muss möglichst von vielen Programmiersprachen verwendet werden 
 ###Entitätentypen
 Da über die PIS Dateien verschiedenste Daten übertragen werden können/sollten ist eine Kategorisierung in Entitäten sinnvoll. Ähnlich wie in anderen Datensammlungen werden folgende Entitäten vorgeschlagen, diese Liste sollte jedoch erweiterbar sein, falls notwendig:
 
-<<<<<<< HEAD
-<img src="https://raw.github.com/SimonWaldherr/PIS-draft/master/diagramme/Podcast%20Information%20System.png" />
-=======
-<img src="diagramme/04_Json-U%CC%88bersicht/U%CC%88bersicht.png" />
->>>>>>> fc7ddf9dd44dff05d3d8cd9ddf0d6bce143e75e1
+![PIS](diagramme/Podcast%20Information%20System.png)
+
+![JSON Übersicht](diagramme/04_Json-U%CC%88bersicht/U%CC%88bersicht.png)
 
 
 * [**redirect**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/redirect.json) Weiterleitung (Weiterleitung auf andere PIS Dateien (zu verwenden auf Systemen die keine Weiterleitung (HTTP 301/2) unterstützen))
