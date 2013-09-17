@@ -18,7 +18,7 @@ Navigation & Links passen sich automatisch der Ordnung: "00"_"Page"_"Name" der D
 ![Navigation](Navi.png "Navigation")
 
 ###Startseite
-Die Einstellungen der Startseite befinden sich hierbei in der [index.md](FAMOS-markdown-webpage/help/index.md) und können dort geändert und angepasst werden.
+Die Einstellungen der Startseite befinden sich hierbei in der [index.md](FAMOS-markdown-webpage/docs/index.md) und können dort geändert und angepasst werden.
 
 ###Funktionen
 Es können die Funktionen von [Bootstrap](http://getbootstrap.com/css/) Bootstrap genutzt werden. Es gibt auch ein [Example](FAMOS-markdown-webpage/docs/100_Examples/01_Examples.md).
