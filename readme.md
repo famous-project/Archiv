@@ -34,8 +34,7 @@ Das Dateiformat muss möglichst von vielen Programmiersprachen verwendet werden 
 ###Entitätentypen
 Da über die PIS Dateien verschiedenste Daten übertragen werden können/sollten ist eine Kategorisierung in Entitäten sinnvoll. Ähnlich wie in anderen Datensammlungen werden folgende Entitäten vorgeschlagen, diese Liste sollte jedoch erweiterbar sein, falls notwendig:
 
-
-<img src="diagramme/04_Json-U%CC%88bersicht/U%CC%88bersicht.png" />
+![JSON Übersicht](diagramme/04_Json-U%CC%88bersicht/U%CC%88bersicht.png)
 
 * [**redirect**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/redirect.json) Weiterleitung (Weiterleitung auf andere PIS Dateien (zu verwenden auf Systemen die keine Weiterleitung (HTTP 301/2) unterstützen))
 * [**overview**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/overview.json) Übersicht (um alle unter dieser Domain verfügbaren PIS Dateien aufzulisten)
@@ -58,7 +57,7 @@ Beim Push von PIS-Daten wird nur die URL des Objekts übergeben, das nutzende Sy
 Zusätzlich zum Push ist auch eine Eintragung in Feeds, als DNS Eintrag und mittels einer PIS Datei im Root Verzeichnis der Webseite (wie auch bei robots.txt, humans.txt, sitemap.xml, favicon.ico, apple-touch-icon-precomposed.png, ...) möglich.
 Neben der Verbreitung als JSON Datei ist auch ein Transfer der Daten im PIS-Backbone geplant.
 
-<img width="450px" src="diagramme/03_Datenverkehr/idee-doku-datenverkehr.png">
+![idee doku datenverkehr](diagramme/03_Datenverkehr/idee-doku-datenverkehr.png)
 
 ###API
 
