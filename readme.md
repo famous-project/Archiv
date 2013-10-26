@@ -1,21 +1,16 @@
-#Podcast Information System \*
+#Famous Applications for Metadata Organizing and Utilizing Systems
 
 
 **think big**  
 **and different**
 
-##Name
+##Subprojekte
 
-\* **Podcast Information System** (PIS) ist nur ein Codename und wird sich noch ändern
-
-Da es evtl. später Sinn macht, dieses System auch für Blogs zu verwenden und andere Systeme mit Metadaten anzureichern würde ich von dem Wort Podcast im Projektnamen Abstand nehmen, obwohl es anfangs sicherlich nur Podcasts betrifft.  
-Auch die Einzelteile sollten benannt werden um bei Gesprächen auf bestimmte Bereiche zu referenzieren. Beim Podlove Projekt gibt es immer wieder das Problem, dass Nutzer Bug-Reports im falschen Repo posten bzw. den Unterschied zwischen PPP und PWP nicht kennen.
-Wenn wir dies verhindern könnten würde das bei künftigen Diskussionen vieles einfacher machen.  
-Ein möglicher Name für den JSON Datenaustausch, also sozusagen das Frontend wäre JSON Objects Data Allocation und das Backbone Netzwerk könnte man Peer Operation Redemption Network nennen. Ich würde bei solchen Akronymen immer eine einfache Aussprechbarkeit bevorzugen.
+Das *FAMOUS* Projekt besteht aus drei kleineren Projekten. Zum einen gibt es eine Definition eines JSON Austauschformats mit dem Namen *JSON Objects Data Application*. Ein weiterer Teil ist das *Open Semantic Metadata Objects System*, welches sich um die Erstellung und Verbreitung dieser JSON Dateien kümmert. Um die Daten nachher auch in großen Mengen zwischen verschiedenen Projekten zu verteilen (**Stichwort: ** Podcast-Suchmaschine) ist das *Extendible MetaInformation System* geplant.
 
 ##Konzept
 
-Das PIS ist ein System und Format zum Austausch von Metadaten. Anfangs ist PIS für Multimedia Inhalte (wie Podcasts) gedacht, eine Erweiterung auf Blogs und andere Textinhalte ist nicht ausgeschlossen.
+Das FAMOUS ist ein System und Format zum Austausch von Metadaten. Anfangs ist FAMOUS für Multimedia Inhalte (wie Podcasts) gedacht, eine Erweiterung auf Blogs und andere Textinhalte ist nicht ausgeschlossen.
 
 ###Dateiformat
 
@@ -32,7 +27,7 @@ Das Dateiformat muss möglichst von vielen Programmiersprachen verwendet werden 
 * ...
 
 ###Entitätentypen
-Da über die PIS Dateien verschiedenste Daten übertragen werden können/sollten ist eine Kategorisierung in Entitäten sinnvoll. Ähnlich wie in anderen Datensammlungen werden folgende Entitäten vorgeschlagen, diese Liste sollte jedoch erweiterbar sein, falls notwendig:
+Da über die FAMOUS Dateien verschiedenste Daten übertragen werden können/sollten ist eine Kategorisierung in Entitäten sinnvoll. Ähnlich wie in anderen Datensammlungen werden folgende Entitäten vorgeschlagen, diese Liste sollte jedoch erweiterbar sein, falls notwendig:
 
 ![JSON Übersicht](diagramme/04_Json-U%CC%88bersicht/U%CC%88bersicht.png)
 
@@ -52,10 +47,10 @@ Die [Beispieldateien](beispieldateien/) sind nur ein vorläufiger Entwurf. Die D
 
 ###Verbreitung
 
-Um die Daten an andere Systeme zu übergeben ist ein Push-Dienst geplant, jeder Hoster von PIS-Daten kann selbst Pushen oder aber auch einen Push-Dienst verwenden.
-Beim Push von PIS-Daten wird nur die URL des Objekts übergeben, das nutzende System muss die Daten dann selbst abrufen. Durch diese Art des Push wird es vereinfacht, die ursprüngliche Herkunft der Daten zu verifizieren.
-Zusätzlich zum Push ist auch eine Eintragung in Feeds, als DNS Eintrag und mittels einer PIS Datei im Root Verzeichnis der Webseite (wie auch bei robots.txt, humans.txt, sitemap.xml, favicon.ico, apple-touch-icon-precomposed.png, ...) möglich.
-Neben der Verbreitung als JSON Datei ist auch ein Transfer der Daten im PIS-Backbone geplant.
+Um die Daten an andere Systeme zu übergeben ist ein Push-Dienst geplant, jeder Hoster von FAMOUS-Daten kann selbst Pushen oder aber auch einen Push-Dienst verwenden.
+Beim Push von FAMOUS-Daten wird nur die URL des Objekts übergeben, das nutzende System muss die Daten dann selbst abrufen. Durch diese Art des Push wird es vereinfacht, die ursprüngliche Herkunft der Daten zu verifizieren.
+Zusätzlich zum Push ist auch eine Eintragung in Feeds, als DNS Eintrag und mittels einer FAMOUS Datei im Root Verzeichnis der Webseite (wie auch bei robots.txt, humans.txt, sitemap.xml, favicon.ico, apple-touch-icon-precomposed.png, ...) möglich.
+Neben der Verbreitung als JSON Datei ist auch ein Transfer der Daten im FAMOUS-Backbone geplant.
 
 ![idee doku datenverkehr](diagramme/03_Datenverkehr/idee-doku-datenverkehr.png)
 
@@ -88,7 +83,7 @@ ich würde gerne über diese Algos und die Implementierung in verschiedenen Spra
 
 ##Nutzer/Participanten
 
-Famous liefert Daten bzw. bietet Daten an, mögliche Nutzer und Anbieter dieser Daten wären:
+FAMOUS liefert Daten bzw. bietet Daten an, mögliche Nutzer und Anbieter dieser Daten wären:
 
 * Podlove Publisher (Anbieter)
 * Firtz (Anbieter)
@@ -108,7 +103,7 @@ So muss nicht jeder Services eine eigene RESTful-API zur Verfügung stellen, son
 Sicher ließe sich diese auch als lokaler REST-Service ausführen. So könnte man wie gewohnt auf bestimmte Komponenten(zum Beispiel Inhaltssuche) des Backbones via Request zugreifen.
 Eine weitere Möglichkeit wäre, dem Application-Server direkt Zugriff auf eine Datenbank zu geben, welche das Backbone dann zum ablegen und abrufen von Informationen nutzt.
 
-Eine grobe Skizze der Idee findet ihr [hier](/diagramme/01_diagramm-funktion/diagramm_big.png "Darstellung Famous") im unteren Bereich der Abbildung. Eine kurze Erklärung wird ggf. in der Konferenz folgen.
+Eine grobe Skizze der Idee findet ihr [hier](/diagramme/01_diagramm-funktion/diagramm_big.png "Darstellung FAMOUS") im unteren Bereich der Abbildung. Eine kurze Erklärung wird ggf. in der Konferenz folgen.
 
 
 ### Ein kurzer Abriss der Idee in Stichpunkten:
@@ -126,7 +121,7 @@ Eine grobe Skizze der Idee findet ihr [hier](/diagramme/01_diagramm-funktion/dia
 * Daten müssen nicht über Crawler gesucht werden, sondern könnten über das Peer-Netzwerk jedem angeboten werden
 * Crawler dennoch möglich. Als eigene Systeme die wieder Daten in das Peer-Netzwerk weitergeben
 * Aufwendige Requests auf viele verschiedene APIs würden entfallen, da das Backbone-Netz diese direkt zur Verfügung stellt.
-* Vollständig eigene Schicht und somit unabhängig von den anderen Famous-Layern (Kein wesentlicher Umbau der alten Strukturen)
+* Vollständig eigene Schicht und somit unabhängig von den anderen FAMOUS-Layern (Kein wesentlicher Umbau der alten Strukturen)
 
 ### Nachteile:
 * Aufwendige Implementierung des Peer-Netzwerkes
