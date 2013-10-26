@@ -1,20 +1,24 @@
 #Famous Applications for Metadata Organizing and Utilizing Systems
 
-
 **think big**  
 **and different**
 
 ##Subprojekte
 
-Das *FAMOUS* Projekt besteht aus drei kleineren Projekten. Zum einen gibt es eine Definition eines JSON Austauschformats mit dem Namen *JSON Objects Data Application*. Ein weiterer Teil ist das *Open Semantic Metadata Objects System*, welches sich um die Erstellung und Verbreitung dieser JSON Dateien kümmert. Um die Daten nachher auch in großen Mengen zwischen verschiedenen Projekten zu verteilen (**Stichwort: ** Podcast-Suchmaschine) ist das *Extendible MetaInformation System* geplant.
+Das *FAMOUS* Projekt besteht aus drei kleineren Projekten.
+Zum einen gibt es eine Definition eines JSON Austauschformats mit dem Namen *JSON Objects Data Application*.
+Ein weiterer Teil ist das *Extendible MetaInformation System*, welches sich um die Erstellung und Verbreitung dieser JSON Dateien kümmert.
+Um die Daten nachher auch in großen Mengen zwischen verschiedenen Projekten zu verteilen (**Stichwort:** Podcast-Suchmaschine) ist das *Open Semantic Metadata Objects System* geplant.
 
 ##Konzept
 
-Das FAMOUS ist ein System und Format zum Austausch von Metadaten. Anfangs ist FAMOUS für Multimedia Inhalte (wie Podcasts) gedacht, eine Erweiterung auf Blogs und andere Textinhalte ist nicht ausgeschlossen.
+Das FAMOUS ist ein System und Format zum Austausch von Metadaten.
+Anfangs ist FAMOUS für Multimedia Inhalte (wie Podcasts) gedacht, eine Erweiterung auf Blogs und andere Textinhalte ist nicht ausgeschlossen.
 
 ###Dateiformat
 
-Das Dateiformat muss möglichst von vielen Programmiersprachen verwendet werden können, deshalb habe ich mich dort für JSON entschieden. Ausserdem müssen folgende Eigenschaften vom Dateiformat ermöglicht werden:
+Das Dateiformat muss möglichst von vielen Programmiersprachen verwendet werden können, deshalb habe ich mich dort für JSON entschieden.
+Ausserdem müssen folgende Eigenschaften vom Dateiformat ermöglicht werden:
 
 * verlinken/weiterleiten auf andere Orte (bei Verwendung von 3rd Party Diensten)
 * cryptografische public key Signierung (+ evtl. Verschlüsselung)
@@ -27,7 +31,9 @@ Das Dateiformat muss möglichst von vielen Programmiersprachen verwendet werden 
 * ...
 
 ###Entitätentypen
-Da über die FAMOUS Dateien verschiedenste Daten übertragen werden können/sollten ist eine Kategorisierung in Entitäten sinnvoll. Ähnlich wie in anderen Datensammlungen werden folgende Entitäten vorgeschlagen, diese Liste sollte jedoch erweiterbar sein, falls notwendig:
+
+Da über die FAMOUS Dateien verschiedenste Daten übertragen werden können/sollten ist eine Kategorisierung in Entitäten sinnvoll.
+Ähnlich wie in anderen Datensammlungen werden folgende Entitäten vorgeschlagen, diese Liste sollte jedoch erweiterbar sein, falls notwendig:
 
 ![JSON Übersicht](diagramme/04_Json-U%CC%88bersicht/U%CC%88bersicht.png)
 
@@ -80,7 +86,9 @@ Hashing:
     * Whirlpool
     * SHA512
 
-ich würde gerne über diese Algos und die Implementierung in verschiedenen Sprachen in der Conf sprechen. Welche Algos sind sicher, schnell und in allen wichtigen Sprachen vorhanden bzw. leicht implementierbar? Für JavaScript würde ich [CRC32, MD5 und Whirlpool Hashingalgos](https://github.com/SimonWaldherr/cryptofoo) zur Verfügung stellen. In PHP können wir ebenfalls alle aufgelisteten Algos verwenden (wird von PHP mitgeliefert). Bei Python sind MD5 und CRC32 ebenfalls direkt verfügbar.
+ich würde gerne über diese Algos und die Implementierung in verschiedenen Sprachen in der Conf sprechen. Welche Algos sind sicher, schnell und in allen wichtigen Sprachen vorhanden bzw. leicht implementierbar?
+Für JavaScript würde ich [CRC32, MD5 und Whirlpool Hashingalgos](https://github.com/SimonWaldherr/cryptofoo) zur Verfügung stellen.
+In PHP können wir ebenfalls alle aufgelisteten Algos verwenden (wird von PHP mitgeliefert). Bei Python sind MD5 und CRC32 ebenfalls direkt verfügbar.
 
 ##Nutzer/Participanten
 
