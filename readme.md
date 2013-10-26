@@ -31,17 +31,17 @@ Da über die FAMOUS Dateien verschiedenste Daten übertragen werden können/soll
 
 ![JSON Übersicht](diagramme/04_Json-U%CC%88bersicht/U%CC%88bersicht.png)
 
-* [**redirect**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/redirect.json) Weiterleitung (Weiterleitung auf andere PIS Dateien (zu verwenden auf Systemen die keine Weiterleitung (HTTP 301/2) unterstützen))
-* [**overview**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/overview.json) Übersicht (um alle unter dieser Domain verfügbaren PIS Dateien aufzulisten)
+* [**redirect**](https://github.com/famous-project/FAMOUS-draft/blob/master/beispieldateien/redirect.json) Weiterleitung (Weiterleitung auf andere FAMOUS Dateien (zu verwenden auf Systemen die keine Weiterleitung (HTTP 301/2) unterstützen))
+* [**overview**](https://github.com/famous-project/FAMOUS-draft/blob/master/beispieldateien/overview.json) Übersicht (um alle unter dieser Domain verfügbaren FAMOUS Dateien aufzulisten)
 * Namen (als Übersicht ähnlich der Wikipedia Begriffsklärungsseiten (Diese Seite ist eine Begriffsklärung zur Unterscheidung mehrerer mit demselben Wort bezeichneter Begriffe.))
-* [**person**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/person.json) Personen (ausschließlich natürliche Personen und keine juristische Personen)
-* [**project**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/project.json) Körperschaften, Firmen, Projekte, Vereinigungen, Communitys
+* [**person**](https://github.com/famous-project/FAMOUS-draft/blob/master/beispieldateien/person.json) Personen (ausschließlich natürliche Personen und keine juristische Personen)
+* [**project**](https://github.com/famous-project/FAMOUS-draft/blob/master/beispieldateien/project.json) Körperschaften, Firmen, Projekte, Vereinigungen, Communitys
 * Events (im Podcast Bezug hauptsächlich Hörertreffen und Workshops)
-* [**produce**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/produce.json) Werke (Veröffentlichungen jeglicher Art, sowohl live als auch Aufzeichnungen)
-* [**geo**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/geo.json) Geografika (Um Ortsdaten bei Dauerhaften Ereignissen zu übermitteln, bei zeitlich begrenzten Ereignissen bitte Events verwenden)
+* [**produce**](https://github.com/famous-project/FAMOUS-draft/blob/master/beispieldateien/produce.json) Werke (Veröffentlichungen jeglicher Art, sowohl live als auch Aufzeichnungen)
+* [**geo**](https://github.com/famous-project/FAMOUS-draft/blob/master/beispieldateien/geo.json) Geografika (Um Ortsdaten bei Dauerhaften Ereignissen zu übermitteln, bei zeitlich begrenzten Ereignissen bitte Events verwenden)
 * **recepie** um Arbeitsabläufe zu beschreiben
-* [**base**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/base.json) Idee für die Standarddaten des Podcasts (Grundeinstellung)
-* [**meta**](https://github.com/SimonWaldherr/PIS-draft/blob/master/beispieldateien/meta.json) Informationen zu den jeweilig aktiven Modulen (Standard erst einmal Backbone)
+* [**base**](https://github.com/famous-project/FAMOUS-draft/blob/master/beispieldateien/base.json) Idee für die Standarddaten des Podcasts (Grundeinstellung)
+* [**meta**](https://github.com/famous-project/FAMOUS-draft/blob/master/beispieldateien/meta.json) Informationen zu den jeweilig aktiven Modulen (Standard erst einmal Backbone)
 
 Die [Beispieldateien](beispieldateien/) sind nur ein vorläufiger Entwurf. Die Dateien wurden als JSON gespeichert, enthalten jedoch mit // gekennzeichnete Kommentare, diese sind für gewöhnlich nicht in JSON erlaubt und dienen nur der Dokumentation.
 
@@ -52,11 +52,12 @@ Beim Push von FAMOUS-Daten wird nur die URL des Objekts übergeben, das nutzende
 Zusätzlich zum Push ist auch eine Eintragung in Feeds, als DNS Eintrag und mittels einer FAMOUS Datei im Root Verzeichnis der Webseite (wie auch bei robots.txt, humans.txt, sitemap.xml, favicon.ico, apple-touch-icon-precomposed.png, ...) möglich.
 Neben der Verbreitung als JSON Datei ist auch ein Transfer der Daten im FAMOUS-Backbone geplant.
 
-![idee doku datenverkehr](diagramme/03_Datenverkehr/idee-doku-datenverkehr.png)
+![Idee doku datenverkehr](diagramme/03_Datenverkehr/idee-doku-datenverkehr.png)
 
 ###API
 
-Der Zugriff auf die Daten auf Frontend Ebene erfolgt ausschließlich über HTTP GET Requests. Um neue Daten ans Backend zu schicken wird ein HTTP POST verwendet. Im Backbone wird XMPP zur Übertragung von Daten verwendet.
+Der Zugriff auf die Daten auf Frontend Ebene erfolgt ausschließlich über HTTP GET Requests.
+Um neue Daten ans Backend zu schicken wird ein HTTP POST verwendet. Im Backbone wird XMPP zur Übertragung von Daten verwendet.
 
 ###Kryptographie, Signierung und Hashing
 
@@ -97,30 +98,24 @@ FAMOUS liefert Daten bzw. bietet Daten an, mögliche Nutzer und Anbieter dieser 
 
 ##OSMOS
 
-Ein separates Backend-Netz würde eine Möglichkeit bieten, Informationen zwischen verschiedenen Services dezentral auszutauschen.
-Es würde den Datenabgleich der einzelnen Services untereinander von der Präsentations-Schicht klar trennen.
-So muss nicht jeder Services eine eigene RESTful-API zur Verfügung stellen, sondern kann wie alle anderen auch eine fest definierte API zum Backbone-Service nutzen.
-Sicher ließe sich diese auch als lokaler REST-Service ausführen. So könnte man wie gewohnt auf bestimmte Komponenten(zum Beispiel Inhaltssuche) des Backbones via Request zugreifen.
-Eine weitere Möglichkeit wäre, dem Application-Server direkt Zugriff auf eine Datenbank zu geben, welche das Backbone dann zum ablegen und abrufen von Informationen nutzt.
+Ein separates Backend-Netz bietet die Möglichkeit sämtliche Metadaten, welche über die RESTful-API von den Podcastern aggregiert werden können, zwischen verschiedenen Services dezentral auszutauschen.
+Ein neuer Service ist damit in der Lage automatisiert seine Datenbank zu updaten.
 
 Eine grobe Skizze der Idee findet ihr [hier](/diagramme/01_diagramm-funktion/diagramm_big.png "Darstellung FAMOUS") im unteren Bereich der Abbildung. Eine kurze Erklärung wird ggf. in der Konferenz folgen.
-
 
 ### Ein kurzer Abriss der Idee in Stichpunkten:
 
 * Dezentraler Informationsverteilerdienst als eigener Application Server
 * Aggregiert Informationen über andere Server - Peering Netzwerk
     * Verbindung der Systeme bspw. über XMPP/Jabber - Subscription/Push möglich
-    * Aufbau von eigenen Message-Typen möglich - Dadurch flexibel
-    * (Jabber nutzt einen XML-Daten-Stream)
     * Datenformat der JSON als Grundlage nutzbar
 
 ### Vorteile:
 * Getrennte mehrfach vorhandene Systeme möglich - Podcaster können ihren bevorzugten Service nutzen
-    * Dennoch Datenaustausch zwischen verschiedenen allen Services möglich, wenn diese am Peering-Netz teilnehmen
+    * Dennoch Datenaustausch zwischen verschiedenen Services möglich, wenn diese am Peering-Netz teilnehmen
 * Daten müssen nicht über Crawler gesucht werden, sondern könnten über das Peer-Netzwerk jedem angeboten werden
 * Crawler dennoch möglich. Als eigene Systeme die wieder Daten in das Peer-Netzwerk weitergeben
-* Aufwendige Requests auf viele verschiedene APIs würden entfallen, da das Backbone-Netz diese direkt zur Verfügung stellt.
+* Aufwendige Requests auf viele verschiedene APIs würden entfallen, da das Backend-Netz diese direkt zur Verfügung stellt.
 * Vollständig eigene Schicht und somit unabhängig von den anderen FAMOUS-Layern (Kein wesentlicher Umbau der alten Strukturen)
 
 ### Nachteile:
