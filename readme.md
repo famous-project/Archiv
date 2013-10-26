@@ -88,7 +88,7 @@ ich würde gerne über diese Algos und die Implementierung in verschiedenen Spra
 
 ##Nutzer/Participanten
 
-Das PIS liefert Daten bzw. bietet Daten an, mögliche Nutzer und Anbieter dieser Daten wären:
+Famous liefert Daten bzw. bietet Daten an, mögliche Nutzer und Anbieter dieser Daten wären:
 
 * Podlove Publisher (Anbieter)
 * Firtz (Anbieter)
@@ -100,21 +100,20 @@ Das PIS liefert Daten bzw. bietet Daten an, mögliche Nutzer und Anbieter dieser
 * Podbe (Nutzer + Anbieter)
 * ReliveRadio (Nutzer)
 
-##PIS-Backbone-Network
+##OSMOS
 
-Ein separates Backbone-Netz würde eine Möglichkeit bieten, Informationen zwischen verschiedenen Services dezentral auszutauschen.
+Ein separates Backend-Netz würde eine Möglichkeit bieten, Informationen zwischen verschiedenen Services dezentral auszutauschen.
 Es würde den Datenabgleich der einzelnen Services untereinander von der Präsentations-Schicht klar trennen.
 So muss nicht jeder Services eine eigene RESTful-API zur Verfügung stellen, sondern kann wie alle anderen auch eine fest definierte API zum Backbone-Service nutzen.
 Sicher ließe sich diese auch als lokaler REST-Service ausführen. So könnte man wie gewohnt auf bestimmte Komponenten(zum Beispiel Inhaltssuche) des Backbones via Request zugreifen.
 Eine weitere Möglichkeit wäre, dem Application-Server direkt Zugriff auf eine Datenbank zu geben, welche das Backbone dann zum ablegen und abrufen von Informationen nutzt.
 
-Eine grobe Skizze der Idee findet ihr [hier](/diagramme/01_diagramm-funktion/diagramm_big.png "Darstellung PIS") im unteren Bereich der Abbildung. Eine kurze Erklärung wird ggf. in der Konferenz folgen.
+Eine grobe Skizze der Idee findet ihr [hier](/diagramme/01_diagramm-funktion/diagramm_big.png "Darstellung Famous") im unteren Bereich der Abbildung. Eine kurze Erklärung wird ggf. in der Konferenz folgen.
 
 
 ### Ein kurzer Abriss der Idee in Stichpunkten:
 
-* Dezentraler Informationsverteiler Dienst als eigener Application Server
-* Erweitert das von cato vorgeschlagene Mischprinzip und macht es flexibler
+* Dezentraler Informationsverteilerdienst als eigener Application Server
 * Aggregiert Informationen über andere Server - Peering Netzwerk
     * Verbindung der Systeme bspw. über XMPP/Jabber - Subscription/Push möglich
     * Aufbau von eigenen Message-Typen möglich - Dadurch flexibel
@@ -127,7 +126,7 @@ Eine grobe Skizze der Idee findet ihr [hier](/diagramme/01_diagramm-funktion/dia
 * Daten müssen nicht über Crawler gesucht werden, sondern könnten über das Peer-Netzwerk jedem angeboten werden
 * Crawler dennoch möglich. Als eigene Systeme die wieder Daten in das Peer-Netzwerk weitergeben
 * Aufwendige Requests auf viele verschiedene APIs würden entfallen, da das Backbone-Netz diese direkt zur Verfügung stellt.
-* Vollständig eigene Schicht und somit unabhängig von den anderen PIS-Layern (Kein wesentlicher Umbau der alten Strukturen)
+* Vollständig eigene Schicht und somit unabhängig von den anderen Famous-Layern (Kein wesentlicher Umbau der alten Strukturen)
 
 ### Nachteile:
 * Aufwendige Implementierung des Peer-Netzwerkes
